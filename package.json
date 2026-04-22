@@ -1,0 +1,16 @@
+{
+  "name": "little-screen-guide",
+  "version": "1.0.0",
+  "description": "Honest ratings for popular children's TV shows and movies for under-5s, based on UK government screen time guidance.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  }
+}

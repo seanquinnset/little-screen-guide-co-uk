@@ -1,0 +1,1623 @@
+[
+  {
+    "id": "bluey",
+    "name": "Bluey",
+    "broadcaster": "CBeebies / ABC Kids",
+    "description": "An inexhaustible Blue Heeler pup who turns everyday family life into extraordinary adventures, developing imagination and emotional resilience.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/b9mY0X5T20ZM073hoa5n0dgmbfN.jpg",
+    "ageMinYears": 2,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 7,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Energetic family play, but always grounded and purposeful — never frenetic"
+      },
+      "cognitive": {
+        "stars": 5,
+        "note": "Rich vocabulary, emotional intelligence, creative problem-solving and imaginative play"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Multiple layers of adult humour and relatable parenting moments actively reward co-watching"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Handles conflict, loss and frustration with care and age-appropriate resolution"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC/ABC production; no overt merchandise push within the show itself"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "No scary content; conflict is always resolved with warmth and humour"
+      }
+    },
+    "tags": [
+      "imaginative play",
+      "emotional literacy",
+      "family values",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "Exemplifies the co-viewing benefit highlighted in UK guidance. Short 7-minute episodes fit easily within the 1-hour daily limit.",
+    "trailerUrl": "https://www.youtube.com/watch?v=2ZtG5Ba6iT0"
+  },
+  {
+    "id": "hey-duggee",
+    "name": "Hey Duggee",
+    "broadcaster": "CBeebies / Netflix",
+    "description": "The Squirrel Club members earn activity badges with their big dog leader Duggee, exploring nature, arts, science and teamwork in gentle adventures.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/y0r27LkhX6AZNqo2Q5FUYmwi5wz.jpg",
+    "ageMinYears": 1,
+    "ageMaxYears": 4,
+    "episodeLengthMinutes": 7,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Gently paced, calm and reassuring throughout"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Introduces STEM concepts, nature, arts and crafts through playful exploration"
+      },
+      "coViewing": {
+        "stars": 4,
+        "note": "Packed with gentle pop-culture references adults enjoy; Duggee's silent comedy is very grown-up"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Conflict-free; consistently warm and affirming in tone"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no in-show advertising"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Entirely calm and reassuring; nothing could frighten young children"
+      }
+    },
+    "tags": [
+      "nature",
+      "STEM",
+      "arts and crafts",
+      "soothing"
+    ],
+    "ukGuidanceNote": "Short, calm episodes that model curiosity and learning by doing. Works well as a winding-down watch given its gentle pace.",
+    "trailerUrl": "https://www.youtube.com/watch?v=VWs5b86zXBE"
+  },
+  {
+    "id": "sarah-and-duck",
+    "name": "Sarah & Duck",
+    "broadcaster": "CBeebies",
+    "description": "Seven-year-old Sarah and her best friend Duck explore the world in their own quiet, imaginative way — finding adventure in the everyday.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/u4SwnXjUFDiyRPPBc4st9TGQefm.jpg",
+    "ageMinYears": 2,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 11,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Deliberately slow, gentle and peaceful — one of the calmest shows available for this age group"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Encourages curiosity, problem-solving and creative thinking through everyday scenarios"
+      },
+      "coViewing": {
+        "stars": 4,
+        "note": "Dry wit and narrator asides give adults plenty to enjoy alongside children"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Entirely calm; nothing threatening or distressing"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no commercial content whatsoever"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Nothing unsettling; quiet and gentle throughout"
+      }
+    },
+    "tags": [
+      "imagination",
+      "curiosity",
+      "friendship",
+      "calm",
+      "bedtime"
+    ],
+    "ukGuidanceNote": "Ideal pre-bed viewing. Its slow pace and soothing tone support winding down — one of the few shows that aligns with guidance on avoiding stimulating content near bedtime.",
+    "trailerUrl": "https://www.youtube.com/watch?v=JX8ZVyZGU2k"
+  },
+  {
+    "id": "bing",
+    "name": "Bing",
+    "broadcaster": "CBeebies",
+    "description": "A lovable young bunny learns about the big world around him, navigating everyday toddler challenges with the help of his carer Flop and his friends.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/2p7S8pkFQsmZjSLaCZmCphdLaXz.jpg",
+    "ageMinYears": 1,
+    "ageMaxYears": 4,
+    "episodeLengthMinutes": 7,
+    "episodeLengthRag": "green",
+    "overallStars": 3,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Very slow and deliberate; mirrors the natural pace of toddler life"
+      },
+      "cognitive": {
+        "stars": 3,
+        "note": "Focuses on emotional regulation rather than academic content; strong feelings vocabulary"
+      },
+      "coViewing": {
+        "stars": 3,
+        "note": "Flop's parenting approach is a talking point; some parents find Bing's behaviour frustrating — intentionally so"
+      },
+      "emotionalContent": {
+        "rag": "amber",
+        "note": "Bing frequently experiences frustration and upset — realistic, but can resonate strongly with sensitive toddlers"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC/CBeebies production; no in-show advertising"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "No scary content; drama is limited to toddler-level frustrations"
+      }
+    },
+    "tags": [
+      "emotional regulation",
+      "toddler life",
+      "patience",
+      "feelings"
+    ],
+    "ukGuidanceNote": "Strong emotional literacy content. Flop's calm responses are a co-viewing opportunity — pause and talk through what Bing is feeling and why.",
+    "trailerUrl": "https://www.youtube.com/watch?v=dHscVX5Q66Y"
+  },
+  {
+    "id": "numberblocks",
+    "name": "Numberblocks",
+    "broadcaster": "CBeebies",
+    "description": "A fun-loving group of number characters work together to solve problems, making counting and early maths genuinely exciting for preschoolers.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/vt872bR11jYDRSzTSfLuOmb2SMt.jpg",
+    "ageMinYears": 2,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 5,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Brisk and engaging but purposeful — each 5-minute episode has a clear learning arc"
+      },
+      "cognitive": {
+        "stars": 5,
+        "note": "Exceptional early maths education; peer-reviewed research shows it outperforms many structured programmes"
+      },
+      "coViewing": {
+        "stars": 3,
+        "note": "Adults can reinforce learning by counting along and extending activities after the episode"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Entirely positive and affirming; no distressing content"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no advertising"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Entirely positive and non-threatening"
+      }
+    },
+    "tags": [
+      "maths",
+      "numeracy",
+      "educational",
+      "STEM"
+    ],
+    "ukGuidanceNote": "5-minute episodes are ideal for the daily time limit. Strong evidence base for improving early numeracy — one of the best uses of under-5 screen time available.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "alphablocks",
+    "name": "Alphablocks",
+    "broadcaster": "CBeebies",
+    "description": "Animated letter blocks come to life to teach children phonics and spelling through catchy songs and playful adventures.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/dppvWTIEUSAKJblYoiRP5Pj59yf.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 5,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Upbeat and musical, but well-structured — the rhythm serves the phonics teaching"
+      },
+      "cognitive": {
+        "stars": 5,
+        "note": "Direct phonics instruction aligned with the UK Letters and Sounds programme; strong evidence base"
+      },
+      "coViewing": {
+        "stars": 3,
+        "note": "Parents can blend sounds along with children and extend learning to books afterwards"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Joyful and entirely positive throughout"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no commercial content"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Joyful and entirely non-threatening"
+      }
+    },
+    "tags": [
+      "phonics",
+      "reading",
+      "literacy",
+      "educational"
+    ],
+    "ukGuidanceNote": "5-minute episodes pack in genuine phonics learning. Best used alongside reading together — a rare example of screen time with a clear, evidence-backed developmental benefit.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "in-the-night-garden",
+    "name": "In the Night Garden",
+    "broadcaster": "CBeebies",
+    "description": "A magical, dreamlike world of gentle characters and soothing repetition, designed to help the youngest viewers wind down before bedtime.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/qD5xsX8aPNYHATq6f28WVQslpqq.jpg",
+    "ageMinYears": 0,
+    "ageMaxYears": 3,
+    "episodeLengthMinutes": 25,
+    "episodeLengthRag": "red",
+    "overallStars": 2,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Extremely slow and dream-like; low stimulation by deliberate design"
+      },
+      "cognitive": {
+        "stars": 2,
+        "note": "Limited language or cognitive challenge; highly repetitive — the repetition is by design but offers little variety"
+      },
+      "coViewing": {
+        "stars": 2,
+        "note": "Little for adults; best treated as a shared winding-down ritual rather than active co-viewing"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Entirely calm and soothing; deliberately non-stimulating"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no in-show advertising"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "Some children find the Haahoos and dreamlike imagery strange or unsettling, particularly at night"
+      }
+    },
+    "tags": [
+      "bedtime",
+      "soothing",
+      "babies",
+      "toddlers"
+    ],
+    "ukGuidanceNote": "A 25-minute episode uses a significant share of the daily limit. UK guidance advises avoiding screens in the hour before bed — if used as a sleep transition, timing and distance from bedtime matter.",
+    "trailerUrl": "https://www.youtube.com/watch?v=NQ5ku4z1pjs"
+  },
+  {
+    "id": "octonauts",
+    "name": "Octonauts",
+    "broadcaster": "CBeebies / Netflix",
+    "description": "An underwater crew of adventurers explore the ocean from their Octopod base, learning real marine biology facts and rescuing sea creatures along the way.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/iYUhUSKWKpSBahaWLUQIPckAy8p.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 11,
+    "episodeLengthRag": "green",
+    "overallStars": 3,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Action-driven but purposeful; each episode follows a clear rescue arc with a calm resolution"
+      },
+      "cognitive": {
+        "stars": 5,
+        "note": "Introduces real marine biology, teamwork and problem-solving; creature facts are genuinely scientifically accurate"
+      },
+      "coViewing": {
+        "stars": 4,
+        "note": "The creature facts are interesting for adults too — a great launchpad for follow-up questions and books"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Peril is brief and always resolved; teamwork and kindness are consistently modelled"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; some merchandise available but never pushed within the show"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "Underwater creature encounters and brief rescue peril may unsettle more sensitive children"
+      }
+    },
+    "tags": [
+      "marine science",
+      "STEM",
+      "teamwork",
+      "nature"
+    ],
+    "ukGuidanceNote": "11-minute episodes leave ample room in the daily limit. High co-viewing value — the creature facts prompt real conversation and curiosity that extend well beyond the screen.",
+    "trailerUrl": "https://www.youtube.com/watch?v=dnyLnL-0CuQ"
+  },
+  {
+    "id": "peppa-pig",
+    "name": "Peppa Pig",
+    "broadcaster": "Channel 5 / Nickelodeon Jr / Netflix",
+    "description": "An energetic little piggy who lives with her family and loves jumping in muddy puddles — simple slice-of-life stories for the youngest viewers.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/iwKVo3HlsyVNXCzFEkd0xHz3kGi.jpg",
+    "ageMinYears": 2,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 5,
+    "episodeLengthRag": "green",
+    "overallStars": 2,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Brisk and simple; episodic slice-of-life format with no complex narrative"
+      },
+      "cognitive": {
+        "stars": 2,
+        "note": "Limited educational value; simple vocabulary and highly predictable storylines"
+      },
+      "coViewing": {
+        "stars": 2,
+        "note": "Many adults find the repetition and Peppa's behaviour grating; limited adult enjoyment"
+      },
+      "emotionalContent": {
+        "rag": "amber",
+        "note": "Peppa is frequently rude to Daddy Pig and dismissive of others — some concern about behaviour modelling for toddlers"
+      },
+      "commercialPressure": {
+        "rag": "red",
+        "note": "One of the most heavily merchandised children's properties globally — toys, clothing, live shows and theme parks"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "No scary content; entirely gentle domestic scenarios"
+      }
+    },
+    "tags": [
+      "family life",
+      "social situations",
+      "popular"
+    ],
+    "ukGuidanceNote": "Short 5-minute episodes are a genuine positive for managing daily limits. However, commercial pressure is very high — be mindful of merchandise exposure outside the show itself.",
+    "trailerUrl": "https://www.youtube.com/watch?v=j_UkGk0wafg"
+  },
+  {
+    "id": "paw-patrol",
+    "name": "Paw Patrol",
+    "broadcaster": "Nickelodeon / Channel 5 / Netflix",
+    "description": "A team of rescue pups, led by tech-savvy 10-year-old Ryder, use their special vehicles and equipment to protect Adventure Bay.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/8HXkgUBO5OF8ZK9XbY69RM4S5rv.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 22,
+    "episodeLengthRag": "amber",
+    "overallStars": 1,
+    "dimensions": {
+      "pace": {
+        "rag": "red",
+        "note": "Fast-paced, action-heavy with rapid scene changes; raises arousal and can make wind-down harder"
+      },
+      "cognitive": {
+        "stars": 2,
+        "note": "Simple, repetitive problem structures; limited vocabulary or genuine cognitive challenge"
+      },
+      "coViewing": {
+        "stars": 1,
+        "note": "Little of interest for adults; the format is designed primarily for independent viewing"
+      },
+      "emotionalContent": {
+        "rag": "amber",
+        "note": "Action peril in most episodes, though always safely resolved; some children find it overstimulating"
+      },
+      "commercialPressure": {
+        "rag": "red",
+        "note": "Exceptionally aggressive merchandise empire — toys, clothing, birthday themes, a cinema franchise and live events"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "Action peril and tense rescue scenarios are common; usually resolved quickly but can linger"
+      }
+    },
+    "tags": [
+      "rescue missions",
+      "vehicles",
+      "action"
+    ],
+    "ukGuidanceNote": "22-minute episodes use most of a toddler's daily allowance. Fast pace and high commercial pressure make this one of the less recommended choices against UK guidance principles.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "ben-and-holly",
+    "name": "Ben & Holly's Little Kingdom",
+    "broadcaster": "Channel 5 / Nickelodeon Jr / Netflix",
+    "description": "A fairy princess and her elf best friend have magical adventures in an enchanted little kingdom, with clever humour that adults love too.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/iJfBAzPNojxE3LTcUhrev7TR0eH.jpg",
+    "ageMinYears": 2,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 11,
+    "episodeLengthRag": "green",
+    "overallStars": 3,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Light and playful pacing; a little more energetic than Sarah & Duck but never frenetic"
+      },
+      "cognitive": {
+        "stars": 3,
+        "note": "Gentle fantasy problem-solving with good vocabulary for the age group"
+      },
+      "coViewing": {
+        "stars": 4,
+        "note": "Clever adult humour throughout — King Thistle is genuinely funny for parents; strong co-viewing value"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Warm and gentle; occasional mild conflict always resolved amicably"
+      },
+      "commercialPressure": {
+        "rag": "amber",
+        "note": "Some merchandise available, but considerably less aggressive than sibling show Peppa Pig"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Grandmaster Glitch is bumbling and entirely unthreatening"
+      }
+    },
+    "tags": [
+      "fantasy",
+      "friendship",
+      "gentle humour",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "A strong co-viewing choice — the adult comedy layer makes shared watching genuinely enjoyable, supporting the parent-child interaction the UK guidance highlights as key.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "go-jetters",
+    "name": "Go Jetters",
+    "broadcaster": "CBeebies",
+    "description": "Four heroes travel the globe with disco-dancing unicorn Ubercorn, learning about famous landmarks while foiling the mischievous Grandmaster Glitch.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/kvSAVAqbXagMmUUSPlmJbS9RXxo.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 22,
+    "episodeLengthRag": "amber",
+    "overallStars": 3,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Upbeat adventure format but well-paced for the age group; not overstimulating"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Introduces real world geography, landmarks and cultural facts; encourages curiosity about the world"
+      },
+      "coViewing": {
+        "stars": 3,
+        "note": "Parents will recognise the landmarks; facts are accurate enough to be interesting for adults"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Mild villain never threatening; conflict always cheerfully resolved through teamwork"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no significant merchandise push"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Glitch is a comedy villain with no genuine threat"
+      }
+    },
+    "tags": [
+      "geography",
+      "world cultures",
+      "STEM",
+      "adventure"
+    ],
+    "ukGuidanceNote": "22-minute episodes fill most of the daily allowance. Strong geographical and cultural content makes the screen time purposeful — follow up by finding the location on a real map together.",
+    "trailerUrl": "https://www.youtube.com/watch?v=rPlK63Kt-iQ"
+  },
+  {
+    "id": "ms-rachel",
+    "name": "Ms Rachel",
+    "broadcaster": "YouTube / Netflix",
+    "description": "A real teacher uses speech-therapy techniques and sign language to help babies and toddlers hit important language milestones through interactive videos.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/cnko5QyMXdSDkl7FXzdudfdMDiS.jpg",
+    "ageMinYears": 0,
+    "ageMaxYears": 3,
+    "episodeLengthMinutes": 45,
+    "episodeLengthRag": "red",
+    "overallStars": 5,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Deliberately slow with frequent pauses for children to respond — mirrors speech therapy pacing techniques"
+      },
+      "cognitive": {
+        "stars": 5,
+        "note": "Outstanding language development content; incorporates sign language, speech delay awareness and coaching for parents"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Explicitly designed for co-viewing; Ms Rachel addresses the adult viewer directly with guidance on how to engage and respond"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Warm and unconditionally positive; no distressing content whatsoever"
+      },
+      "commercialPressure": {
+        "rag": "amber",
+        "note": "Videos themselves are free and non-commercial, but the YouTube platform shows ads unless using Premium or ad-blocking"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Warm, positive and entirely safe for very young viewers"
+      }
+    },
+    "tags": [
+      "language development",
+      "sign language",
+      "babies",
+      "co-viewing",
+      "speech delay"
+    ],
+    "ukGuidanceNote": "A rare example of content designed specifically around co-viewing principles. Long video length means parents should watch in segments — pause, interact, then continue. Closely aligned with UK guidance on engaged adult participation.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "blippi",
+    "name": "Blippi",
+    "broadcaster": "YouTube / Netflix",
+    "description": "A high-energy presenter explores the real world, teaching children about colours, numbers, animals and vehicles through field trips and songs.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/lBqTjYByc3qDiLjdD2RtIk6vVZq.jpg",
+    "ageMinYears": 2,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 20,
+    "episodeLengthRag": "amber",
+    "overallStars": 1,
+    "dimensions": {
+      "pace": {
+        "rag": "red",
+        "note": "Very high-energy presenter style; rapid scene changes and constant stimulation throughout"
+      },
+      "cognitive": {
+        "stars": 3,
+        "note": "Covers educational topics (colours, numbers, animals) but typically at surface level without depth"
+      },
+      "coViewing": {
+        "stars": 2,
+        "note": "Presenter style is optimised for child attention; many adults find extended viewing tiring"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Entirely positive and upbeat; no concerning content"
+      },
+      "commercialPressure": {
+        "rag": "red",
+        "note": "Extensive Blippi merchandise line, branded toys, theme park experiences and a strong in-show brand identity"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Upbeat and non-threatening throughout"
+      }
+    },
+    "tags": [
+      "educational",
+      "real world exploration",
+      "high energy",
+      "vehicles"
+    ],
+    "ukGuidanceNote": "Fast pace and high commercial pressure work against UK guidance principles. If used, keep sessions short and watch together — adding your own narration can slow the pace and deepen the learning.",
+    "trailerUrl": "https://www.youtube.com/watch?v=BI_0ROCsmCc"
+  },
+  {
+    "id": "the-wiggles",
+    "name": "The Wiggles",
+    "type": "show",
+    "broadcaster": "ABC Kids / YouTube",
+    "description": "A colourful music group teaches kids songs, dances and basic concepts through high-energy live-action performances and sing-alongs.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/e4O9IXM3ZmuDsrEICslrwqCl7MT.jpg",
+    "ageMinYears": 1,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 25,
+    "episodeLengthRag": "amber",
+    "overallStars": 2,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "High-energy music and dancing; engaging but can overstimulate before bedtime"
+      },
+      "cognitive": {
+        "stars": 3,
+        "note": "Teaches colours, numbers and body movement through repetitive songs and dance routines"
+      },
+      "coViewing": {
+        "stars": 2,
+        "note": "Very child-focused format; most adults find extended viewing tiring despite the enthusiasm"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Entirely positive and joyful; no negative content whatsoever"
+      },
+      "commercialPressure": {
+        "rag": "amber",
+        "note": "Significant merchandise line including live tours, toys and costumes"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Completely non-threatening; pure joy and energy throughout"
+      }
+    },
+    "tags": [
+      "music",
+      "dancing",
+      "movement",
+      "toddlers"
+    ],
+    "ukGuidanceNote": "Energetic format works well in short bursts but 25-minute episodes use a significant portion of the daily limit. Best paired with physical activity — dance along rather than passive viewing.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "sesame-street",
+    "name": "Sesame Street",
+    "type": "show",
+    "broadcaster": "PBS / Channel 5 / Netflix",
+    "description": "Humans and Muppets on a special inner-city street teach preschoolers letters, numbers and social skills through comedy, songs and games.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/14k9BfZ2p4rQBMeJ5crKTfUZVwD.jpg",
+    "ageMinYears": 2,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 25,
+    "episodeLengthRag": "amber",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Magazine format with varied pacing; segments alternate between calm and upbeat to maintain attention"
+      },
+      "cognitive": {
+        "stars": 5,
+        "note": "Gold standard in educational TV; decades of research backing its effectiveness for literacy, numeracy and social skills"
+      },
+      "coViewing": {
+        "stars": 4,
+        "note": "Celebrity guests, clever parodies and cultural references give adults genuine entertainment value"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Handles complex topics — grief, disability, diversity — with exceptional care and age-appropriate sensitivity"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "PBS production; minimal commercial pressure in the show itself"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Designed to be entirely safe; even Oscar the Grouch is grumpy rather than scary"
+      }
+    },
+    "tags": [
+      "educational",
+      "STEM",
+      "emotional literacy",
+      "diversity"
+    ],
+    "ukGuidanceNote": "One of the most thoroughly researched children's programmes ever made. Co-viewing amplifies the educational benefit — talk about the concepts together afterwards.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "mr-tumble",
+    "name": "Mr Tumble",
+    "type": "show",
+    "broadcaster": "CBeebies",
+    "description": "Justin Fletcher's beloved clown character teaches Makaton sign language alongside spoken English through gentle comedy, songs and interactive play.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/kmLWVwt3DwzOlpmCaKzpnevhBue.jpg",
+    "ageMinYears": 1,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 20,
+    "episodeLengthRag": "amber",
+    "overallStars": 5,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Deliberately gentle pacing with clear Makaton signing pauses built into every scene"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Teaches Makaton sign language alongside spoken English; strong inclusivity and communication skills focus"
+      },
+      "coViewing": {
+        "stars": 3,
+        "note": "Parents can learn Makaton signs alongside their children; Justin Fletcher's warmth makes shared viewing easy"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Unfailingly warm, inclusive and affirming throughout"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no in-show advertising"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Completely safe and reassuring for all ages"
+      }
+    },
+    "tags": [
+      "sign language",
+      "Makaton",
+      "inclusivity",
+      "educational"
+    ],
+    "ukGuidanceNote": "Excellent example of purposeful screen time — children actively learn Makaton signs they can use in daily life. The slow pace and interactive format align well with co-viewing guidance.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "teletubbies",
+    "name": "Teletubbies",
+    "type": "show",
+    "broadcaster": "CBeebies",
+    "description": "Colourful, rotund characters Tinky Winky, Dipsy, Laa-Laa and Po play, dance and explore in the magical land of Teletubbyland.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/orb9uGxgXs1Lo69SWwWeS5MxA2l.jpg",
+    "ageMinYears": 0,
+    "ageMaxYears": 3,
+    "episodeLengthMinutes": 25,
+    "episodeLengthRag": "red",
+    "overallStars": 2,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Very slow, repetitive and dream-like; designed for the youngest viewers"
+      },
+      "cognitive": {
+        "stars": 2,
+        "note": "Highly repetitive with minimal language or cognitive challenge; limited educational value beyond basic visual engagement"
+      },
+      "coViewing": {
+        "stars": 1,
+        "note": "Very little for adults to engage with; format is designed for independent toddler viewing"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Entirely gentle and non-threatening"
+      },
+      "commercialPressure": {
+        "rag": "amber",
+        "note": "Significant merchandise range; the brand is commercially active"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Bright, colourful and completely non-scary"
+      }
+    },
+    "tags": [
+      "babies",
+      "toddlers",
+      "soothing"
+    ],
+    "ukGuidanceNote": "25-minute episodes consume most of a toddler's daily screen time allowance. Very limited educational content compared to alternatives — consider shorter, more enriching options like Hey Duggee or Numberblocks.",
+    "trailerUrl": "https://www.youtube.com/watch?v=5ZCgbGgA-_8"
+  },
+  {
+    "id": "cocomelon",
+    "name": "CoComelon",
+    "type": "show",
+    "broadcaster": "YouTube / Netflix",
+    "description": "Animated nursery rhymes and songs following the character JJ and his family, exploring feelings and the world through colourful musical stories.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/l5SRYNMkc8NOxQe0E0jNUrdxOR6.jpg",
+    "ageMinYears": 1,
+    "ageMaxYears": 3,
+    "episodeLengthMinutes": 3,
+    "episodeLengthRag": "green",
+    "overallStars": 1,
+    "dimensions": {
+      "pace": {
+        "rag": "red",
+        "note": "Extremely rapid visual changes and hyper-saturated colours; designed to maximise screen fixation rather than learning"
+      },
+      "cognitive": {
+        "stars": 2,
+        "note": "Covers basic concepts through nursery rhymes but the overstimulating delivery undermines genuine learning"
+      },
+      "coViewing": {
+        "stars": 1,
+        "note": "Designed to capture and hold toddler attention independently; no adult engagement layer"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Content is entirely positive and cheerful"
+      },
+      "commercialPressure": {
+        "rag": "red",
+        "note": "Massive global brand with extensive merchandise; YouTube platform serves ads unless using Premium"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Nothing scary; entirely bright and cheerful"
+      }
+    },
+    "tags": [
+      "nursery rhymes",
+      "music",
+      "babies"
+    ],
+    "ukGuidanceNote": "Individual songs are 3 minutes but YouTube compilations encourage extended passive viewing well beyond daily limits. The hyper-stimulating visual style contradicts research recommendations. If used, set strict time limits and avoid autoplay compilations.",
+    "trailerUrl": "https://www.youtube.com/watch?v=KUnnUY8fXtQ"
+  },
+  {
+    "id": "doc-mcstuffins",
+    "name": "Doc McStuffins",
+    "type": "show",
+    "broadcaster": "Disney Junior",
+    "description": "A young girl who can talk to toys uses her skills to diagnose and fix them, learning about health, empathy and STEM along the way.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/eeGWJaFkxX0vvOFFpNFXrh9QVxl.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 11,
+    "episodeLengthRag": "green",
+    "overallStars": 3,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Upbeat but purposeful pacing; each episode follows a clear diagnosis-and-treatment arc"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Introduces medical and scientific vocabulary through toy repair; strong STEM messaging especially for girls"
+      },
+      "coViewing": {
+        "stars": 3,
+        "note": "Parents can discuss health and empathy themes; the diagnostic format creates natural talking points"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Warm and caring throughout; models empathy and helping others"
+      },
+      "commercialPressure": {
+        "rag": "amber",
+        "note": "Disney merchandise available but not aggressively pushed within the show"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "No scary content; the toy-repair premise is inherently gentle"
+      }
+    },
+    "tags": [
+      "STEM",
+      "medical",
+      "empathy",
+      "imagination"
+    ],
+    "ukGuidanceNote": "11-minute episodes leave room in the daily allowance. One of the stronger Disney Junior offerings — the medical vocabulary and problem-solving format give screen time genuine educational value.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "rugrats",
+    "name": "Rugrats",
+    "type": "show",
+    "broadcaster": "Nickelodeon",
+    "description": "A group of adventurous toddlers — led by brave Tommy Pickles — turn everyday life into wild imaginative escapades, mostly under the nose of oblivious adults.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/wmsINbZuEBLNP2Z26Xffx5NHJpW.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 22,
+    "episodeLengthRag": "amber",
+    "overallStars": 2,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Active and adventurous with frequent imaginative sequences; more stimulating than typical preschool fare"
+      },
+      "cognitive": {
+        "stars": 3,
+        "note": "Rich imaginative play scenarios but limited explicit educational content; good vocabulary exposure"
+      },
+      "coViewing": {
+        "stars": 4,
+        "note": "Packed with adult humour, pop-culture parodies and relatable parenting moments — genuinely entertaining for grown-ups"
+      },
+      "emotionalContent": {
+        "rag": "amber",
+        "note": "Angelica's bullying and the babies' fears are realistic but can resonate strongly with sensitive children"
+      },
+      "commercialPressure": {
+        "rag": "amber",
+        "note": "Classic Nickelodeon property with ongoing merchandise"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "Imaginative sequences can be genuinely frightening for under-3s; Angelica is intentionally intimidating"
+      }
+    },
+    "tags": [
+      "imagination",
+      "family life",
+      "friendship",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "Better suited to the older end of the under-5 range. The sophisticated adult humour makes it a strong co-viewing choice if your child can handle the occasionally intense imaginative sequences.",
+    "trailerUrl": "https://www.youtube.com/watch?v=ssCdYVhD-qg"
+  },
+  {
+    "id": "mickey-mouse-clubhouse",
+    "name": "Mickey Mouse Clubhouse",
+    "type": "show",
+    "broadcaster": "Disney Junior",
+    "description": "Mickey and his friends go on fun adventures, solving problems with interactive Mousketools that teach counting, shapes and basic logic.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/gHtEhlAZHxMawOiPq7JoKwkmETQ.jpg",
+    "ageMinYears": 2,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 22,
+    "episodeLengthRag": "amber",
+    "overallStars": 2,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Structured and predictable pacing; the interactive Mousketool segments break up the narrative"
+      },
+      "cognitive": {
+        "stars": 3,
+        "note": "Introduces basic problem-solving, counting and shapes through interactive prompts"
+      },
+      "coViewing": {
+        "stars": 2,
+        "note": "Repetitive format offers limited adult engagement; designed primarily for independent viewing"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Entirely positive and friendly throughout"
+      },
+      "commercialPressure": {
+        "rag": "red",
+        "note": "Part of the vast Disney merchandise ecosystem; Mickey branding is ubiquitous"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "No scary content whatsoever"
+      }
+    },
+    "tags": [
+      "problem-solving",
+      "educational",
+      "popular"
+    ],
+    "ukGuidanceNote": "22-minute episodes fill most of the daily allowance. The interactive format encourages participation but the educational depth is limited compared to CBeebies alternatives like Numberblocks.",
+    "trailerUrl": "https://www.youtube.com/watch?v=FNV_evY3yGI"
+  },
+  {
+    "id": "dora-the-explorer",
+    "name": "Dora the Explorer",
+    "type": "show",
+    "broadcaster": "Nickelodeon / Channel 5",
+    "description": "A young girl and her monkey friend Boots go on interactive adventures, teaching Spanish vocabulary, counting and problem-solving along the way.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/wuZAi6JPdlX68s1p7iztmt0p13C.jpg",
+    "ageMinYears": 2,
+    "ageMaxYears": 5,
+    "episodeLengthMinutes": 22,
+    "episodeLengthRag": "amber",
+    "overallStars": 2,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Structured interactive format with built-in pauses for child responses; repetitive but purposeful"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Genuinely bilingual content with Spanish vocabulary; problem-solving, map reading and counting are well-integrated"
+      },
+      "coViewing": {
+        "stars": 2,
+        "note": "The repetitive call-and-response format is effective for children but tiring for adults"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Entirely positive; Swiper's mild villainy is always quickly resolved"
+      },
+      "commercialPressure": {
+        "rag": "red",
+        "note": "Heavily merchandised Nickelodeon property with extensive toy lines and spin-offs"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Swiper is a very mild antagonist; nothing genuinely scary"
+      }
+    },
+    "tags": [
+      "bilingual",
+      "problem-solving",
+      "educational",
+      "adventure"
+    ],
+    "ukGuidanceNote": "The bilingual format is a genuine educational strength rare in children's TV. However, 22-minute episodes and heavy commercial pressure are drawbacks. The interactive pauses are an opportunity for co-viewing engagement.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "shaun-the-sheep",
+    "name": "Shaun the Sheep",
+    "type": "show",
+    "broadcaster": "CBeebies / CBBC / Netflix",
+    "description": "A clever sheep and his flock get up to all sorts of mischief on the farm in this dialogue-free Aardman stop-motion comedy.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/z2gPfTQd3I0JLWOAEdKYMQRLoun.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 7,
+    "episodeLengthRag": "green",
+    "overallStars": 3,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Slapstick physical comedy with quick visual gags; energetic but short enough to avoid overstimulation"
+      },
+      "cognitive": {
+        "stars": 3,
+        "note": "No dialogue develops visual literacy and inference skills; physical comedy teaches cause and effect"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Aardman's trademark wit makes this genuinely enjoyable for adults — one of the best co-viewing experiences available"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Warm-hearted despite the slapstick; friendship and loyalty are constant themes"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "Aardman / BBC production; modest merchandise compared to competitors"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "The Farmer is bumbling rather than threatening; all conflict is comic"
+      }
+    },
+    "tags": [
+      "comedy",
+      "farm",
+      "imagination",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "7-minute episodes fit perfectly within daily limits. The dialogue-free format develops inference and visual storytelling skills — ask your child to narrate what's happening for an extra language boost.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "peter-rabbit",
+    "name": "Peter Rabbit",
+    "type": "show",
+    "broadcaster": "CBeebies / Netflix",
+    "description": "CG-animated adventures of Beatrix Potter's famous rabbit and friends as they explore the countryside and outsmart Mr McGregor.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/36MwBWUBwWa61ndbSXGqz7dHYqF.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 11,
+    "episodeLengthRag": "green",
+    "overallStars": 3,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Adventure-driven with chase sequences, but well-paced and never overwhelming"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Strong nature content with real botanical and wildlife facts woven into each adventure"
+      },
+      "coViewing": {
+        "stars": 3,
+        "note": "Beatrix Potter connection gives parents a hook; nature facts create good follow-up conversation"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Friendship and bravery are central themes; mild peril always resolved positively"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC / CBeebies production; Beatrix Potter brand exists but is not aggressively marketed"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "Mr McGregor chases and occasional close calls may worry more sensitive children"
+      }
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "friendship",
+      "teamwork"
+    ],
+    "ukGuidanceNote": "A good bridge between gentle preschool content and slightly more adventurous fare. 11-minute episodes leave room in the daily limit, and the nature themes translate naturally into outdoor activities.",
+    "trailerUrl": ""
+  },
+  {
+    "id": "the-gruffalo",
+    "name": "The Gruffalo",
+    "type": "movie",
+    "broadcaster": "BBC",
+    "description": "A brave mouse invents a monster called the Gruffalo to scare off woodland predators — but what happens when the Gruffalo turns out to be real?",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/154eUuLvPnI0mwVDGpMgUyniFEy.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 27,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Gentle, measured narration with beautiful animation; follows the rhythmic pace of the book perfectly"
+      },
+      "cognitive": {
+        "stars": 5,
+        "note": "Rich vocabulary, rhyming patterns, prediction skills and narrative structure — actively builds pre-reading skills"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Beautiful enough for adults to genuinely enjoy; the book connection creates natural pre- and post-viewing activities"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Themes of cleverness triumphing over danger; the mouse is always in control"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; the book exists but the adaptation itself has minimal commercial pressure"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "The Gruffalo's appearance and the dark forest setting can frighten sensitive under-3s; predators wanting to eat the mouse is played for humour but some children take it literally"
+      }
+    },
+    "tags": [
+      "imagination",
+      "nature",
+      "bedtime",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "At 27 minutes, fits within the daily limit with room to spare. The rhyming text and prediction elements make it ideal for interactive co-viewing — pause and ask 'what happens next?' Read the book together before or after.",
+    "trailerUrl": "https://www.youtube.com/watch?v=cVkj4McR1Fo"
+  },
+  {
+    "id": "the-gruffalos-child",
+    "name": "The Gruffalo's Child",
+    "type": "movie",
+    "broadcaster": "BBC",
+    "description": "The Gruffalo's brave young daughter ventures into the snowy deep dark wood to find the legendary Big Bad Mouse.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/n8fu0eATvUWtmR9CsDlL1gwqTcp.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 27,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Same gentle, measured pace as the original; the snowy winter setting adds a cosy, quieter atmosphere"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Strong rhyming and vocabulary; explores bravery and the gap between stories and reality"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Beautifully animated winter sequel that adults enjoy as much as the original"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "The Gruffalo's Child's journey is one of curiosity and bravery, resolved warmly"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production with minimal commercial pressure"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "The dark, snowy forest and search for the Big Bad Mouse may unsettle very young viewers; slightly more atmospheric tension than the original"
+      }
+    },
+    "tags": [
+      "imagination",
+      "nature",
+      "bedtime",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "A lovely companion to the original. The winter setting makes it a perfect seasonal watch. Same co-viewing benefits — ask your child to compare the two stories.",
+    "trailerUrl": "https://www.youtube.com/watch?v=vlCpF2A-_MA"
+  },
+  {
+    "id": "room-on-the-broom",
+    "name": "Room on the Broom",
+    "type": "movie",
+    "broadcaster": "BBC",
+    "description": "A kind witch invites animals to share her broomstick — until a dragon threatens them all and the gang must work together to save the day.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/9qAL19JR0oJ7ZlVpUE1Os2P6XXp.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 25,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Gently paced with a building rhythm as each new animal joins the broomstick"
+      },
+      "cognitive": {
+        "stars": 5,
+        "note": "Themes of kindness, inclusion and cooperation; rich vocabulary and rhyming structure support pre-reading skills"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Stunning animation with stellar voice cast including Timothy Spall and Simon Pegg — genuinely entertaining for adults"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "A story about friendship and inclusion; the resolution celebrates working together"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no commercial pressure"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "The dragon is genuinely menacing and the witch's peril near the end may upset sensitive children — though the resolution is triumphant"
+      }
+    },
+    "tags": [
+      "imagination",
+      "friendship",
+      "teamwork",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "One of the best uses of 25 minutes of screen time available. The themes of kindness and inclusion align perfectly with early years development goals. Read the book together first.",
+    "trailerUrl": "https://www.youtube.com/watch?v=jwZavzhym2A"
+  },
+  {
+    "id": "stick-man",
+    "name": "Stick Man",
+    "type": "movie",
+    "broadcaster": "BBC",
+    "description": "Stick Man gets separated from his family tree and embarks on an epic seasonal journey to get back home in time for Christmas.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/hChFSATMxo9cDpDGl5iit5dx7yy.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 27,
+    "episodeLengthRag": "green",
+    "overallStars": 5,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Gentle seasonal journey through the year; calm and reflective with moments of gentle peril"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Explores seasons, nature and the concept of home; good vocabulary and narrative structure"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Martin Freeman and Jennifer Saunders voice the characters; adults genuinely enjoy the emotional journey"
+      },
+      "emotionalContent": {
+        "rag": "amber",
+        "note": "Stick Man's repeated separation from his family can be emotionally intense for children who experience separation anxiety"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no commercial pressure"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Peril is gentle and always resolved; the Christmas ending is warm and joyful"
+      }
+    },
+    "tags": [
+      "nature",
+      "family values",
+      "bedtime",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "The seasonal journey and themes of home and family create rich conversation opportunities. Be aware that the separation narrative may resonate with children starting nursery or experiencing changes at home.",
+    "trailerUrl": "https://www.youtube.com/watch?v=K7SLexWe6ko"
+  },
+  {
+    "id": "the-highway-rat",
+    "name": "The Highway Rat",
+    "type": "movie",
+    "broadcaster": "BBC",
+    "description": "A ravenous rat gallops along the highway stealing sweet treats from every creature he meets — until his greed leads him to a sticky end.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/dxNKtY0e5pm6BFCdDMP3riRVBTb.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 25,
+    "episodeLengthRag": "green",
+    "overallStars": 3,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "More action-driven than other Donaldson adaptations; the Rat's robberies create a pacier narrative"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Themes of greed versus generosity; rhyming text and moral storytelling"
+      },
+      "coViewing": {
+        "stars": 4,
+        "note": "David Tennant voices the Rat with obvious relish; adults enjoy the highwayman pastiche"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "The Rat gets his comeuppance but is reformed rather than punished; positive moral resolution"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no commercial pressure"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "The Rat is greedy rather than scary; no genuinely frightening content"
+      }
+    },
+    "tags": [
+      "imagination",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "A good conversation starter about sharing and fairness. The slightly pacier format makes it engaging for children who find the gentler adaptations too slow.",
+    "trailerUrl": "https://www.youtube.com/watch?v=M58eRpW-Y4o"
+  },
+  {
+    "id": "zog",
+    "name": "Zog",
+    "type": "movie",
+    "broadcaster": "BBC",
+    "description": "A keen but accident-prone young dragon tries to earn golden stars at dragon school, helped by a kind girl who patches up his bumps and bruises.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/ko3AtKUsMK27LMJqpyW5uJk4FZh.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 25,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Gentle dragon-school setting with a calm, encouraging tone throughout"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Themes of perseverance, trying again after failure, and challenging expectations — strong growth mindset messaging"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Lenny Henry, Tracey Ullman and Kit Harington voice the characters; charming for all ages"
+      },
+      "emotionalContent": {
+        "rag": "green",
+        "note": "Zog's struggles are always met with encouragement; the princess choosing her own path is empowering"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no commercial pressure"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "Dragons are friendly and bumbling; no threatening content whatsoever"
+      }
+    },
+    "tags": [
+      "imagination",
+      "perseverance",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "Excellent growth mindset content — Zog's repeated failures and persistence model exactly the resilience the early years framework encourages. One of the gentlest Donaldson adaptations.",
+    "trailerUrl": "https://www.youtube.com/watch?v=qKYdLQgQB5Y"
+  },
+  {
+    "id": "the-snail-and-the-whale",
+    "name": "The Snail and the Whale",
+    "type": "movie",
+    "broadcaster": "BBC",
+    "description": "A tiny snail hitches a ride on a humpback whale's tail for an epic ocean journey — and discovers even the smallest creature can make a big difference.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/qWsqdJ6XUvwimqxwlplIazKjpve.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 26,
+    "episodeLengthRag": "green",
+    "overallStars": 4,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Slow, sweeping journey across the oceans; beautifully calm and contemplative"
+      },
+      "cognitive": {
+        "stars": 5,
+        "note": "Explores geography, ocean life and the natural world; themes of courage and the power of even the smallest creature"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Stunning oceanic animation and Sally Hawkins' narration make this genuinely beautiful for adults"
+      },
+      "emotionalContent": {
+        "rag": "amber",
+        "note": "The whale beaching scene is emotionally intense and may upset sensitive children, though the resolution is uplifting"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no commercial pressure"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "The whale becoming stranded on a beach is genuinely tense and potentially upsetting for young viewers"
+      }
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "The whale beaching scene may need parental support for sensitive children, but the themes of bravery, friendship and environmental care are outstanding. A natural springboard into conversations about ocean life.",
+    "trailerUrl": "https://www.youtube.com/watch?v=dmLnraxsKpM"
+  },
+  {
+    "id": "tabby-mctat",
+    "name": "Tabby McTat",
+    "type": "movie",
+    "broadcaster": "BBC",
+    "description": "A busker's singing cat is separated from his owner and must navigate the streets of London, finding friendship and a new sense of home.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/o8Ob85i772akIhwUlkBWpu5yRUu.jpg",
+    "ageMinYears": 3,
+    "ageMaxYears": 6,
+    "episodeLengthMinutes": 27,
+    "episodeLengthRag": "green",
+    "overallStars": 3,
+    "dimensions": {
+      "pace": {
+        "rag": "green",
+        "note": "Musical and gentle; the busking and singing format keeps a calm, rhythmic pace throughout"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Musical literacy, rhyming and vocabulary; themes of loyalty and finding where you belong"
+      },
+      "coViewing": {
+        "stars": 4,
+        "note": "Rob Brydon's voice performance is charming; the music is catchy enough for adults to enjoy"
+      },
+      "emotionalContent": {
+        "rag": "amber",
+        "note": "Tabby's separation from his owner and search for home may tug at heartstrings — the ending is bittersweet rather than straightforwardly happy"
+      },
+      "commercialPressure": {
+        "rag": "green",
+        "note": "BBC production; no commercial pressure"
+      },
+      "fearFactor": {
+        "rag": "green",
+        "note": "No scary content; the story is warm throughout despite its emotional moments"
+      }
+    },
+    "tags": [
+      "music",
+      "friendship",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "The bittersweet ending is more emotionally complex than most Donaldson adaptations — be prepared for questions about why Tabby doesn't go back to his original owner. Good for discussing how families can change and grow.",
+    "trailerUrl": "https://www.youtube.com/watch?v=77-G2wXK1Fg"
+  },
+  {
+    "id": "toy-story",
+    "name": "Toy Story",
+    "type": "movie",
+    "broadcaster": "Disney / Pixar",
+    "description": "Woody the cowboy fears losing his place as Andy's favourite toy when flashy newcomer Buzz Lightyear arrives — a Pixar classic about friendship and jealousy.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "ageMinYears": 4,
+    "ageMaxYears": 8,
+    "episodeLengthMinutes": 81,
+    "episodeLengthRag": "red",
+    "overallStars": 2,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Classic narrative pacing with action sequences; significantly more intense than TV episodes"
+      },
+      "cognitive": {
+        "stars": 4,
+        "note": "Rich themes of loyalty, jealousy, identity and friendship; complex narrative structure develops attention and story comprehension"
+      },
+      "coViewing": {
+        "stars": 5,
+        "note": "Pixar's trademark layered storytelling ensures genuine adult entertainment; a true family film"
+      },
+      "emotionalContent": {
+        "rag": "amber",
+        "note": "Woody's jealousy and fear of replacement are relatable but intense; Sid's treatment of toys is deliberately disturbing"
+      },
+      "commercialPressure": {
+        "rag": "red",
+        "note": "One of the most merchandised film franchises in history; toys, games, theme park attractions and four sequels"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "Sid's mutant toys, the moving-van chase and Buzz's identity crisis can genuinely frighten under-4s"
+      }
+    },
+    "tags": [
+      "friendship",
+      "imagination",
+      "co-viewing"
+    ],
+    "ukGuidanceNote": "At 81 minutes, this far exceeds the daily screen time recommendation for under-5s. Best reserved for older children in the range and split across two sittings. The emotional complexity rewards co-viewing — be ready to discuss feelings of jealousy and fear of change.",
+    "trailerUrl": "https://www.youtube.com/watch?v=CxwTLktovTU"
+  },
+  {
+    "id": "frozen",
+    "name": "Frozen",
+    "type": "movie",
+    "broadcaster": "Disney",
+    "description": "Princess Anna embarks on an epic journey to find her sister Elsa, whose icy powers have trapped the kingdom in eternal winter.",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/itAKcobTYGpYT8Phwjd8c9hleTo.jpg",
+    "ageMinYears": 4,
+    "ageMaxYears": 8,
+    "episodeLengthMinutes": 102,
+    "episodeLengthRag": "red",
+    "overallStars": 2,
+    "dimensions": {
+      "pace": {
+        "rag": "amber",
+        "note": "Musical numbers alternate with action sequences; overall pacing is brisk with some intense set pieces"
+      },
+      "cognitive": {
+        "stars": 3,
+        "note": "Themes of sisterhood and self-acceptance; limited educational content beyond emotional storytelling"
+      },
+      "coViewing": {
+        "stars": 4,
+        "note": "Catchy musical numbers and the sister relationship give adults genuine engagement points"
+      },
+      "emotionalContent": {
+        "rag": "amber",
+        "note": "Parental death, isolation, fear of one's own powers and betrayal are heavy themes for very young viewers"
+      },
+      "commercialPressure": {
+        "rag": "red",
+        "note": "Perhaps the single most heavily merchandised children's property of the last decade — costumes, dolls, bedding, and the songs are inescapable"
+      },
+      "fearFactor": {
+        "rag": "amber",
+        "note": "Marshmallow the snow monster, wolves, Hans' betrayal and Elsa's ice-palace rampage are genuinely scary for under-4s"
+      }
+    },
+    "tags": [
+      "music",
+      "friendship",
+      "popular"
+    ],
+    "ukGuidanceNote": "At 102 minutes, this exceeds the entire daily screen time recommendation. The emotional intensity — parental loss, isolation, betrayal — is significant for under-5s. If watched, split across sessions and be prepared to support the heavier themes.",
+    "trailerUrl": "https://www.youtube.com/watch?v=TbQm5doF_Uc"
+  }
+]

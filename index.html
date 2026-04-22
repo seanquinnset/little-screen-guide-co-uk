@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Screen Guide — Kids TV Ratings for Under-5s</title>
+  <meta name="description" content="Honest ratings for popular children's TV shows and movies for under-5s. Pace, fear factor, cognitive value and more — based on UK government screen time guidance." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://littlescreenguide.co.uk/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Little Screen Guide — Kids TV Ratings for Under-5s" />
+  <meta property="og:description" content="Honest ratings for popular children's TV shows and movies for under-5s. Pace, fear factor, cognitive value and more — based on UK government screen time guidance." />
+  <meta property="og:url" content="https://littlescreenguide.co.uk/" />
+  <meta property="og:image" content="https://littlescreenguide.co.uk/images/og-img.jpg" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:site_name" content="Little Screen Guide" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Little Screen Guide — Kids TV Ratings for Under-5s" />
+  <meta name="twitter:description" content="Honest ratings for popular children's TV shows and movies for under-5s. Based on UK government screen time guidance." />
+  <meta name="twitter:image" content="https://littlescreenguide.co.uk/images/og-img.jpg" />
+
+  <!-- Theme & favicon -->
+  <meta name="theme-color" content="#faf7f2" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Little Screen Guide",
+    "url": "https://littlescreenguide.co.uk/",
+    "description": "Honest ratings for popular children's TV shows and movies for under-5s, based on UK government screen time guidance.",
+    "inLanguage": "en-GB"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="tailwind.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body class="min-h-screen">
+
+  <!-- ── Header ─────────────────────────────────────────────────────────── -->
+  <header style="background:#f0ede6; border-bottom:1px solid #e0dbd2;" class="px-4 py-7">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-2xl" aria-hidden="true">⭐</span>
+            <h1 class="text-2xl sm:text-3xl font-extrabold text-[#2c2c2c] leading-tight">
+              Little Screen Guide
+            </h1>
+          </div>
+          <p class="text-sm text-[#7a7060] max-w-sm leading-relaxed">
+            A friendly guide to help you choose — not judge.
+            Every parent uses screens sometimes, and that's OK.
+            Based on
+            <a href="https://www.gov.uk/government/news/new-screen-time-guidance-for-parents-of-under-5s"
+               target="_blank" rel="noopener"
+               class="text-[#2f5e28] underline underline-offset-2 font-semibold hover:text-[#1e3e1a]">
+              UK government guidance
+            </a>.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap sm:flex-col gap-2 sm:items-end sm:text-right">
+          <div class="flex items-center gap-1.5 text-xs text-[#7a7060]">
+            <span class="rag-amber text-xs font-semibold px-2 py-0.5 rounded-full">2–5 yrs</span>
+            <span>Max 1 hr / day</span>
+          </div>
+          <div class="flex items-center gap-1.5 text-xs text-[#7a7060]">
+            <span class="rag-green text-xs font-semibold px-2 py-0.5 rounded-full">Co-view</span>
+            <span>Better outcomes</span>
+          </div>
+          <div class="flex items-center gap-1.5 text-xs text-[#7a7060]">
+            <span class="rag-red text-xs font-semibold px-2 py-0.5 rounded-full">Bedtime</span>
+            <span>No screens 1 hr before</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Controls ───────────────────────────────────────────────────────── -->
+  <div style="background:#f7f4ef; border-bottom:1px solid #e0dbd2;" class="px-4 py-3.5 sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto flex flex-wrap gap-2.5 items-center">
+
+      <input id="search"
+             type="search"
+             placeholder="Search shows…"
+             class="control-input flex-1 min-w-[180px]"
+             aria-label="Search shows" />
+
+      <select id="age-filter" class="control-input" aria-label="Filter by age">
+        <option value="all">All ages</option>
+        <option value="under2">Under 2</option>
+        <option value="2-3">2–3 years</option>
+        <option value="3-5">3–5 years</option>
+      </select>
+
+      <select id="sort" class="control-input" aria-label="Sort shows">
+        <option value="overall">Sort: Overall rating</option>
+        <option value="cognitive">Sort: Cognitive score</option>
+        <option value="coviewing">Sort: Co-viewing score</option>
+        <option value="pace">Sort: Calmest first</option>
+        <option value="fear">Sort: Gentlest first</option>
+        <option value="shortest">Sort: Shortest first</option>
+      </select>
+
+      <button id="filter-toggle"
+              aria-expanded="false"
+              aria-controls="filter-panel">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M1.5 1.5h13L10 7.7V13l-4 2V7.7z"/>
+        </svg>
+        Filters
+        <span id="filter-badge" aria-label="active filters"></span>
+      </button>
+
+      <button id="view-toggle" class="view-toggle-btn" aria-label="Switch to list view" title="Toggle grid / list view">
+        <svg id="view-icon-list" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <rect x="0" y="1" width="3" height="3" rx="0.5"/><rect x="5" y="1" width="11" height="3" rx="0.5"/>
+          <rect x="0" y="6.5" width="3" height="3" rx="0.5"/><rect x="5" y="6.5" width="11" height="3" rx="0.5"/>
+          <rect x="0" y="12" width="3" height="3" rx="0.5"/><rect x="5" y="12" width="11" height="3" rx="0.5"/>
+        </svg>
+        <svg id="view-icon-grid" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" style="display:none;">
+          <rect x="0" y="0" width="7" height="7" rx="1"/><rect x="9" y="0" width="7" height="7" rx="1"/>
+          <rect x="0" y="9" width="7" height="7" rx="1"/><rect x="9" y="9" width="7" height="7" rx="1"/>
+        </svg>
+      </button>
+
+      <span id="results-count" class="text-xs text-[#b0a898] ml-1 tabular-nums" aria-live="polite"></span>
+
+    </div>
+  </div>
+
+  <!-- ── Advanced filter panel ─────────────────────────────────────── -->
+  <div id="filter-panel" aria-label="Advanced filters">
+    <div class="max-w-5xl mx-auto px-4 py-2">
+
+      <div class="filter-group" data-filter="type">
+        <span class="filter-group-label">Type</span>
+        <button class="filter-chip" data-filter="type" data-value="show">TV Shows</button>
+        <button class="filter-chip" data-filter="type" data-value="movie">Movies</button>
+      </div>
+
+      <div class="filter-group" data-filter="broadcaster">
+        <span class="filter-group-label">Broadcaster</span>
+        <button class="filter-chip" data-filter="broadcaster" data-value="cbeebies">BBC / CBeebies</button>
+        <button class="filter-chip" data-filter="broadcaster" data-value="nickelodeon">Nickelodeon / Ch5</button>
+        <button class="filter-chip" data-filter="broadcaster" data-value="disney">Disney</button>
+        <button class="filter-chip" data-filter="broadcaster" data-value="youtube">YouTube</button>
+        <button class="filter-chip" data-filter="broadcaster" data-value="netflix">Netflix</button>
+      </div>
+
+      <div class="filter-group" data-filter="tags">
+        <span class="filter-group-label">Tags</span>
+        <button class="filter-chip" data-filter="tags" data-value="stem">STEM</button>
+        <button class="filter-chip" data-filter="tags" data-value="phonics">Phonics</button>
+        <button class="filter-chip" data-filter="tags" data-value="emotional-literacy">Emotional literacy</button>
+        <button class="filter-chip" data-filter="tags" data-value="nature">Nature</button>
+        <button class="filter-chip" data-filter="tags" data-value="imagination">Imagination</button>
+        <button class="filter-chip" data-filter="tags" data-value="co-viewing">Co-viewing</button>
+        <button class="filter-chip" data-filter="tags" data-value="bedtime">Bedtime</button>
+        <button class="filter-chip" data-filter="tags" data-value="calm">Calm / Soothing</button>
+        <button class="filter-chip" data-filter="tags" data-value="educational">Educational</button>
+        <button class="filter-chip" data-filter="tags" data-value="friendship">Friendship</button>
+        <button class="filter-chip" data-filter="tags" data-value="teamwork">Teamwork</button>
+      </div>
+
+      <div class="filter-group" data-filter="pace">
+        <span class="filter-group-label">Pace</span>
+        <button class="filter-chip rag-chip-green" data-filter="pace" data-value="green">&#9679; Calm</button>
+        <button class="filter-chip rag-chip-amber" data-filter="pace" data-value="amber">&#9679; Moderate</button>
+        <button class="filter-chip rag-chip-red" data-filter="pace" data-value="red">&#9679; Fast-paced</button>
+      </div>
+
+      <div class="filter-group" data-filter="fear">
+        <span class="filter-group-label">Fear factor</span>
+        <button class="filter-chip rag-chip-green" data-filter="fear" data-value="green">&#9679; Nothing scary</button>
+        <button class="filter-chip rag-chip-amber" data-filter="fear" data-value="amber">&#9679; A few tense bits</button>
+        <button class="filter-chip rag-chip-red" data-filter="fear" data-value="red">&#9679; Some intense moments</button>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-group-label">Min rating</span>
+        <span id="filter-stars">
+          <button class="filter-star" data-star="1" aria-label="1 star minimum">&#9733;</button>
+          <button class="filter-star" data-star="2" aria-label="2 stars minimum">&#9733;</button>
+          <button class="filter-star" data-star="3" aria-label="3 stars minimum">&#9733;</button>
+          <button class="filter-star" data-star="4" aria-label="4 stars minimum">&#9733;</button>
+          <button class="filter-star" data-star="5" aria-label="5 stars minimum">&#9733;</button>
+        </span>
+      </div>
+
+      <div style="text-align:right; padding:0.35rem 0 0.25rem;">
+        <button id="filter-clear">Clear all filters</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── Error state ─────────────────────────────────────────────────────── -->
+  <div id="error-msg" class="hidden max-w-5xl mx-auto px-4 pt-6">
+    <div class="uk-note">
+      <p class="uk-note-label">Could not load show data</p>
+      <p class="uk-note-text">
+        This site needs to be served over HTTP to load the JSON data file.
+        In your terminal, run
+        <code style="background:#fde9c4; padding:0 4px; border-radius:4px;">python3 -m http.server</code>
+        or
+        <code style="background:#fde9c4; padding:0 4px; border-radius:4px;">npx serve .</code>
+        in this folder, then open
+        <code style="background:#fde9c4; padding:0 4px; border-radius:4px;">http://localhost:8000</code>
+        in your browser.
+      </p>
+    </div>
+  </div>
+
+  <!-- ── Card grid ───────────────────────────────────────────────────────── -->
+  <main class="max-w-5xl mx-auto px-4 py-6">
+    <div id="show-grid"></div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────────────────────── -->
+  <footer style="border-top:1px solid #e0dbd2;" class="mt-4 py-8 px-4">
+    <div class="max-w-5xl mx-auto text-center">
+      <p class="text-xs text-[#b0a898] leading-relaxed max-w-lg mx-auto">
+        Ratings are editorial guidance only, not official UK government classifications.
+        Always use your own judgement as a parent.
+        <a href="https://www.gov.uk/government/news/new-screen-time-guidance-for-parents-of-under-5s"
+           target="_blank" rel="noopener"
+           class="text-[#2f5e28] underline underline-offset-2 font-semibold hover:text-[#1e3e1a] ml-1">
+          Read the official guidance →
+        </a>
+      </p>
+      <p class="text-xs text-[#b0a898] mt-3">
+        <a href="mailto:hello@littlescreenguide.co.uk"
+           class="text-[#2f5e28] underline underline-offset-2 font-semibold hover:text-[#1e3e1a]">
+          Suggest a change or email us →
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ── Video modal ──────────────────────────────────────────────────── -->
+  <div id="video-modal"
+       style="display:none; position:fixed; inset:0; z-index:100;
+              background:rgba(0,0,0,0.82); backdrop-filter:blur(4px);
+              opacity:0; transition:opacity 0.25s ease;"
+       aria-hidden="true">
+    <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; padding:1.5rem;">
+      <div style="position:relative; width:100%; max-width:800px; aspect-ratio:16/9; border-radius:0.75rem; overflow:hidden; background:#000;">
+        <iframe id="video-iframe"
+                style="position:absolute; inset:0; width:100%; height:100%; border:none;"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <button id="video-close"
+              style="position:absolute; top:1rem; right:1rem; width:2.5rem; height:2.5rem;
+                     display:flex; align-items:center; justify-content:center;
+                     border-radius:999px; border:none; background:rgba(255,255,255,0.15);
+                     color:white; cursor:pointer; font-size:1.5rem; line-height:1;
+                     transition:background 0.15s;"
+              aria-label="Close video">×</button>
+    </div>
+  </div>
+
+  <!-- ── Panel overlay ─────────────────────────────────────────────────── -->
+  <div id="panel-overlay"
+       style="display:none; position:fixed; inset:0; background:rgba(40,34,24,0.45);
+              backdrop-filter:blur(3px); z-index:40; opacity:0;
+              transition:opacity 0.32s ease;"
+       aria-hidden="true"></div>
+
+  <!-- ── Slide-out panel ────────────────────────────────────────────────── -->
+  <div id="show-panel"
+       role="dialog" aria-modal="true" aria-label="Show details"
+       style="display:none; position:fixed; top:0; right:0; height:100%;
+              width:min(460px,100vw); background:#faf7f2; z-index:50;
+              overflow-y:auto; transform:translateX(100%);
+              transition:transform 0.32s cubic-bezier(0.4,0,0.2,1);
+              box-shadow:-6px 0 32px rgba(0,0,0,0.14);
+              scrollbar-width:thin; scrollbar-color:#d4edcc transparent;">
+    <div id="panel-content" style="padding:1.25rem 1.5rem 3rem;">
+      <!-- populated by app.js -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
