@@ -569,11 +569,11 @@ function buildPanelContent(show) {
 
     <div class="share-row">
       <span class="share-label">Share</span>
-      <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent('Check out the rating for ' + show.name + ' on Little Screen Guide')}&url=${encodeURIComponent('https://littlescreenguide.co.uk/')}" target="_blank" rel="noopener" class="share-btn" aria-label="Share on X" title="Share on X"><i class="ph ph-x-logo"></i></a>
+      <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent('A great guide for age-appropriate children\'s TV and movies for under-5s')}&url=${encodeURIComponent('https://littlescreenguide.co.uk/')}" target="_blank" rel="noopener" class="share-btn" aria-label="Share on X" title="Share on X"><i class="ph ph-x-logo"></i></a>
+      <a href="https://wa.me/?text=${encodeURIComponent('A great guide for age-appropriate children\'s TV and movies for under-5s: https://littlescreenguide.co.uk/')}" target="_blank" rel="noopener" class="share-btn" aria-label="Share on WhatsApp" title="Share on WhatsApp"><i class="ph ph-whatsapp-logo"></i></a>
       <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://littlescreenguide.co.uk/')}" target="_blank" rel="noopener" class="share-btn" aria-label="Share on Facebook" title="Share on Facebook"><i class="ph ph-facebook-logo"></i></a>
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://littlescreenguide.co.uk/')}" target="_blank" rel="noopener" class="share-btn" aria-label="Share on LinkedIn" title="Share on LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
-      <button onclick="navigator.clipboard.writeText('https://littlescreenguide.co.uk/').then(()=>{this.querySelector('.ph').className='ph ph-check';setTimeout(()=>{this.querySelector('.ph').className='ph ph-instagram-logo'},1500)})" class="share-btn" aria-label="Copy link for Instagram" title="Copy link for Instagram"><i class="ph ph-instagram-logo"></i></button>
-      <a href="mailto:?subject=${encodeURIComponent('Check out ' + show.name + ' on Little Screen Guide')}&body=${encodeURIComponent('I found this rating for ' + show.name + ' on Little Screen Guide — have a look: https://littlescreenguide.co.uk/')}" class="share-btn" aria-label="Share via email" title="Share via email"><i class="ph ph-envelope-simple"></i></a>
+      <button onclick="navigator.clipboard.writeText('https://littlescreenguide.co.uk/').then(()=>{this.querySelector('.ph').className='ph ph-check';setTimeout(()=>{this.querySelector('.ph').className='ph ph-link'},1500)})" class="share-btn" aria-label="Copy link" title="Copy link"><i class="ph ph-link"></i></button>
+      <a href="mailto:?subject=${encodeURIComponent('A great guide for children\'s TV for under-5s')}&body=${encodeURIComponent('I found this great guide for age-appropriate children\'s TV and movies for under-5s — worth a look: https://littlescreenguide.co.uk/')}" class="share-btn" aria-label="Share via email" title="Share via email"><i class="ph ph-envelope-simple"></i></a>
     </div>
 
     <details class="how-we-rate">
