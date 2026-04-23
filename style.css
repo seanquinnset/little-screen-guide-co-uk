@@ -535,9 +535,9 @@ body {
 
 .show-section.list-view .list-info {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
   padding: 0.6rem 0.75rem;
   flex: 1;
   min-width: 0;
@@ -547,14 +547,19 @@ body {
   font-size: 0.8125rem;
   font-weight: 700;
   color: #2c2c2c;
-  min-width: 8rem;
-  flex: 1;
 }
 
 .show-section.list-view .list-meta {
   font-size: 0.7rem;
   color: #a09888;
   white-space: nowrap;
+}
+
+.show-section.list-view .list-bottom-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .show-section.list-view .list-badges {

@@ -354,12 +354,13 @@ function showListRow(show) {
       <div class="list-thumb">${thumb}</div>
       <div class="list-info">
         <span class="list-name">${show.name}</span>
-        <span class="list-meta">${show.broadcaster}</span>
-        <span class="list-meta">${show.episodeLengthMinutes} min</span>
-        <div class="stars text-sm">${stars(show.overallStars)}</div>
-        <div class="list-badges">
-          <span class="rag-${show.dimensions.pace.rag} text-xs font-semibold px-1.5 py-0.5 rounded-full">${paceLabel}</span>
-          <span class="rag-${show.dimensions.fearFactor.rag} text-xs font-semibold px-1.5 py-0.5 rounded-full">${fearLabel}</span>
+        <span class="list-meta">${show.broadcaster} · ${show.episodeLengthMinutes} min</span>
+        <div class="list-bottom-row">
+          <div class="stars text-sm">${stars(show.overallStars)}</div>
+          <div class="list-badges">
+            <span class="rag-${show.dimensions.pace.rag} text-xs font-semibold px-1.5 py-0.5 rounded-full">${paceLabel}</span>
+            <span class="rag-${show.dimensions.fearFactor.rag} text-xs font-semibold px-1.5 py-0.5 rounded-full">${fearLabel}</span>
+          </div>
         </div>
       </div>
     </article>`;
