@@ -598,52 +598,6 @@
     "trailerUrl": ""
   },
   {
-    "id": "blippi",
-    "name": "Blippi",
-    "broadcaster": "YouTube / Netflix",
-    "description": "A high-energy presenter explores the real world, teaching children about colours, numbers, animals and vehicles through field trips and songs.",
-    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/lBqTjYByc3qDiLjdD2RtIk6vVZq.jpg",
-    "ageMinYears": 2,
-    "ageMaxYears": 5,
-    "episodeLengthMinutes": 20,
-    "episodeLengthRag": "amber",
-    "overallStars": 1,
-    "dimensions": {
-      "pace": {
-        "rag": "red",
-        "note": "Very high-energy presenter style; rapid scene changes and constant stimulation throughout"
-      },
-      "cognitive": {
-        "stars": 3,
-        "note": "Covers educational topics (colours, numbers, animals) but typically at surface level without depth"
-      },
-      "coViewing": {
-        "stars": 2,
-        "note": "Presenter style is optimised for child attention; many adults find extended viewing tiring"
-      },
-      "emotionalContent": {
-        "rag": "green",
-        "note": "Entirely positive and upbeat; no concerning content"
-      },
-      "commercialPressure": {
-        "rag": "red",
-        "note": "Extensive Blippi merchandise line, branded toys, theme park experiences and a strong in-show brand identity"
-      },
-      "fearFactor": {
-        "rag": "green",
-        "note": "Upbeat and non-threatening throughout"
-      }
-    },
-    "tags": [
-      "educational",
-      "real world exploration",
-      "high energy",
-      "vehicles"
-    ],
-    "ukGuidanceNote": "Fast pace and high commercial pressure work against UK guidance principles. If used, keep sessions short and watch together — adding your own narration can slow the pace and deepen the learning.",
-    "trailerUrl": "https://www.youtube.com/watch?v=BI_0ROCsmCc"
-  },
-  {
     "id": "the-wiggles",
     "name": "The Wiggles",
     "type": "show",
@@ -694,7 +648,7 @@
     "id": "sesame-street",
     "name": "Sesame Street",
     "type": "show",
-    "broadcaster": "PBS / Channel 5 / Netflix",
+    "broadcaster": "Channel 5 / Netflix",
     "description": "Humans and Muppets on a special inner-city street teach preschoolers letters, numbers and social skills through comedy, songs and games.",
     "thumbnailUrl": "https://image.tmdb.org/t/p/w500/14k9BfZ2p4rQBMeJ5crKTfUZVwD.jpg",
     "ageMinYears": 2,
