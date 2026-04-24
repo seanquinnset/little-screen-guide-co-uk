@@ -20,6 +20,7 @@ const advancedFilters = {
   tags:        new Set(),
   pace:        new Set(),
   fear:        new Set(),
+  format:      new Set(),
   minStars:    0,
 };
 
@@ -74,6 +75,18 @@ function setupListeners() {
   });
   window.addEventListener('popstate', () => { if (panelOpen) closePanel(true); });
 
+  const homeCopyBtn = document.getElementById('homepage-copy-btn');
+  if (homeCopyBtn) {
+    homeCopyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText('https://littlescreenguide.co.uk/').then(() => {
+        homeCopyBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>';
+        setTimeout(() => {
+          homeCopyBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"/></svg>';
+        }, 1500);
+      });
+    });
+  }
+
   document.getElementById('video-close').addEventListener('click', closeVideo);
   document.getElementById('video-modal').addEventListener('click', e => {
     if (e.target === document.getElementById('video-modal') || e.target.parentElement === document.getElementById('video-modal')) closeVideo();
@@ -105,6 +118,7 @@ function applyFilters() {
       matchesTags(s) &&
       matchesPace(s) &&
       matchesFear(s) &&
+      matchesFormat(s) &&
       matchesMinStars(s)
     )
     .sort(comparator(sort));
@@ -205,6 +219,7 @@ function updateFilterBadge() {
             + advancedFilters.tags.size
             + advancedFilters.pace.size
             + advancedFilters.fear.size
+            + advancedFilters.format.size
             + (advancedFilters.minStars > 0 ? 1 : 0);
 
   const badge = document.getElementById('filter-badge');
@@ -222,6 +237,7 @@ function clearAllFilters() {
   advancedFilters.tags.clear();
   advancedFilters.pace.clear();
   advancedFilters.fear.clear();
+  advancedFilters.format.clear();
   advancedFilters.minStars = 0;
 
   document.querySelectorAll('#filter-panel .filter-chip.active').forEach(c => c.classList.remove('active'));
@@ -265,6 +281,11 @@ function matchesPace(show) {
 function matchesFear(show) {
   if (advancedFilters.fear.size === 0) return true;
   return advancedFilters.fear.has(show.dimensions.fearFactor.rag);
+}
+
+function matchesFormat(show) {
+  if (advancedFilters.format.size === 0) return true;
+  return advancedFilters.format.has(show.format || 'animated');
 }
 
 function matchesMinStars(show) {
@@ -474,15 +495,6 @@ function openPanel(id) {
 
   document.getElementById('panel-content').innerHTML = buildPanelContent(show);
   document.getElementById('panel-close').addEventListener('click', closePanel);
-  const copyBtn = document.getElementById('share-copy-btn');
-  if (copyBtn) {
-    copyBtn.addEventListener('click', () => {
-      navigator.clipboard.writeText('https://littlescreenguide.co.uk/').then(() => {
-        copyBtn.innerHTML = SI.check;
-        setTimeout(() => { copyBtn.innerHTML = SI.instagram; }, 1500);
-      });
-    });
-  }
 
   const overlay = document.getElementById('panel-overlay');
   const panel   = document.getElementById('show-panel');
@@ -593,15 +605,6 @@ function buildPanelContent(show) {
     <div class="uk-note">
       <p class="uk-note-label">UK Guidance Note</p>
       <p class="uk-note-text">${show.ukGuidanceNote}</p>
-    </div>
-
-    <div class="share-row">
-      <span class="share-label">Share</span>
-      <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent('Check out the rating for ' + show.name + ' on Little Screen Guide')}&url=${encodeURIComponent('https://littlescreenguide.co.uk/')}" target="_blank" rel="noopener" class="share-btn" aria-label="Share on X" title="Share on X">${SI.x}</a>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://littlescreenguide.co.uk/')}" target="_blank" rel="noopener" class="share-btn" aria-label="Share on Facebook" title="Share on Facebook">${SI.facebook}</a>
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://littlescreenguide.co.uk/')}" target="_blank" rel="noopener" class="share-btn" aria-label="Share on LinkedIn" title="Share on LinkedIn">${SI.linkedin}</a>
-      <button id="share-copy-btn" class="share-btn" aria-label="Copy link for Instagram" title="Copy link for Instagram">${SI.instagram}</button>
-      <a href="mailto:?subject=${encodeURIComponent('Check out ' + show.name + ' on Little Screen Guide')}&body=${encodeURIComponent('I found this rating for ' + show.name + ' on Little Screen Guide — have a look: https://littlescreenguide.co.uk/')}" class="share-btn" aria-label="Share via email" title="Share via email">${SI.email}</a>
     </div>
 
     <details class="how-we-rate">

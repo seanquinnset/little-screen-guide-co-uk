@@ -43,7 +43,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "Exemplifies the co-viewing benefit highlighted in UK guidance. Short 7-minute episodes fit easily within the 1-hour daily limit.",
-    "trailerUrl": "https://www.youtube.com/watch?v=2ZtG5Ba6iT0"
+    "trailerUrl": "https://www.youtube.com/watch?v=2ZtG5Ba6iT0",
+    "format": "animated"
   },
   {
     "id": "hey-duggee",
@@ -89,7 +90,8 @@
       "soothing"
     ],
     "ukGuidanceNote": "Short, calm episodes that model curiosity and learning by doing. Works well as a winding-down watch given its gentle pace.",
-    "trailerUrl": "https://www.youtube.com/watch?v=VWs5b86zXBE"
+    "trailerUrl": "https://www.youtube.com/watch?v=VWs5b86zXBE",
+    "format": "animated"
   },
   {
     "id": "sarah-and-duck",
@@ -136,7 +138,8 @@
       "bedtime"
     ],
     "ukGuidanceNote": "Ideal pre-bed viewing. Its slow pace and soothing tone support winding down — one of the few shows that aligns with guidance on avoiding stimulating content near bedtime.",
-    "trailerUrl": "https://www.youtube.com/watch?v=JX8ZVyZGU2k"
+    "trailerUrl": "https://www.youtube.com/watch?v=JX8ZVyZGU2k",
+    "format": "animated"
   },
   {
     "id": "bing",
@@ -182,7 +185,8 @@
       "feelings"
     ],
     "ukGuidanceNote": "Strong emotional literacy content. Flop's calm responses are a co-viewing opportunity — pause and talk through what Bing is feeling and why.",
-    "trailerUrl": "https://www.youtube.com/watch?v=dHscVX5Q66Y"
+    "trailerUrl": "https://www.youtube.com/watch?v=dHscVX5Q66Y",
+    "format": "animated"
   },
   {
     "id": "numberblocks",
@@ -228,7 +232,8 @@
       "STEM"
     ],
     "ukGuidanceNote": "5-minute episodes are ideal for the daily time limit. Strong evidence base for improving early numeracy — one of the best uses of under-5 screen time available.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "animated"
   },
   {
     "id": "alphablocks",
@@ -274,7 +279,8 @@
       "educational"
     ],
     "ukGuidanceNote": "5-minute episodes pack in genuine phonics learning. Best used alongside reading together — a rare example of screen time with a clear, evidence-backed developmental benefit.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "animated"
   },
   {
     "id": "in-the-night-garden",
@@ -320,7 +326,8 @@
       "toddlers"
     ],
     "ukGuidanceNote": "A 25-minute episode uses a significant share of the daily limit. UK guidance advises avoiding screens in the hour before bed — if used as a sleep transition, timing and distance from bedtime matter.",
-    "trailerUrl": "https://www.youtube.com/watch?v=NQ5ku4z1pjs"
+    "trailerUrl": "https://www.youtube.com/watch?v=NQ5ku4z1pjs",
+    "format": "live-action"
   },
   {
     "id": "octonauts",
@@ -366,7 +373,8 @@
       "nature"
     ],
     "ukGuidanceNote": "11-minute episodes leave ample room in the daily limit. High co-viewing value — the creature facts prompt real conversation and curiosity that extend well beyond the screen.",
-    "trailerUrl": "https://www.youtube.com/watch?v=dnyLnL-0CuQ"
+    "trailerUrl": "https://www.youtube.com/watch?v=dnyLnL-0CuQ",
+    "format": "animated"
   },
   {
     "id": "peppa-pig",
@@ -411,7 +419,8 @@
       "popular"
     ],
     "ukGuidanceNote": "Short 5-minute episodes are a genuine positive for managing daily limits. However, commercial pressure is very high — be mindful of merchandise exposure outside the show itself.",
-    "trailerUrl": "https://www.youtube.com/watch?v=j_UkGk0wafg"
+    "trailerUrl": "https://www.youtube.com/watch?v=j_UkGk0wafg",
+    "format": "animated"
   },
   {
     "id": "paw-patrol",
@@ -456,7 +465,8 @@
       "action"
     ],
     "ukGuidanceNote": "22-minute episodes use most of a toddler's daily allowance. Fast pace and high commercial pressure make this one of the less recommended choices against UK guidance principles.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "animated"
   },
   {
     "id": "ben-and-holly",
@@ -502,7 +512,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "A strong co-viewing choice — the adult comedy layer makes shared watching genuinely enjoyable, supporting the parent-child interaction the UK guidance highlights as key.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "animated"
   },
   {
     "id": "go-jetters",
@@ -548,7 +559,8 @@
       "adventure"
     ],
     "ukGuidanceNote": "22-minute episodes fill most of the daily allowance. Strong geographical and cultural content makes the screen time purposeful — follow up by finding the location on a real map together.",
-    "trailerUrl": "https://www.youtube.com/watch?v=rPlK63Kt-iQ"
+    "trailerUrl": "https://www.youtube.com/watch?v=rPlK63Kt-iQ",
+    "format": "animated"
   },
   {
     "id": "ms-rachel",
@@ -595,7 +607,8 @@
       "speech delay"
     ],
     "ukGuidanceNote": "A rare example of content designed specifically around co-viewing principles. Long video length means parents should watch in segments — pause, interact, then continue. Closely aligned with UK guidance on engaged adult participation.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "live-action"
   },
   {
     "id": "the-wiggles",
@@ -642,7 +655,8 @@
       "toddlers"
     ],
     "ukGuidanceNote": "Energetic format works well in short bursts but 25-minute episodes use a significant portion of the daily limit. Best paired with physical activity — dance along rather than passive viewing.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "live-action"
   },
   {
     "id": "sesame-street",
@@ -689,7 +703,8 @@
       "diversity"
     ],
     "ukGuidanceNote": "One of the most thoroughly researched children's programmes ever made. Co-viewing amplifies the educational benefit — talk about the concepts together afterwards.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "live-action"
   },
   {
     "id": "mr-tumble",
@@ -736,7 +751,8 @@
       "educational"
     ],
     "ukGuidanceNote": "Excellent example of purposeful screen time — children actively learn Makaton signs they can use in daily life. The slow pace and interactive format align well with co-viewing guidance.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "live-action"
   },
   {
     "id": "teletubbies",
@@ -782,7 +798,8 @@
       "soothing"
     ],
     "ukGuidanceNote": "25-minute episodes consume most of a toddler's daily screen time allowance. Very limited educational content compared to alternatives — consider shorter, more enriching options like Hey Duggee or Numberblocks.",
-    "trailerUrl": "https://www.youtube.com/watch?v=5ZCgbGgA-_8"
+    "trailerUrl": "https://www.youtube.com/watch?v=5ZCgbGgA-_8",
+    "format": "live-action"
   },
   {
     "id": "cocomelon",
@@ -828,7 +845,8 @@
       "babies"
     ],
     "ukGuidanceNote": "Individual songs are 3 minutes but YouTube compilations encourage extended passive viewing well beyond daily limits. The hyper-stimulating visual style contradicts research recommendations. If used, set strict time limits and avoid autoplay compilations.",
-    "trailerUrl": "https://www.youtube.com/watch?v=KUnnUY8fXtQ"
+    "trailerUrl": "https://www.youtube.com/watch?v=KUnnUY8fXtQ",
+    "format": "animated"
   },
   {
     "id": "doc-mcstuffins",
@@ -875,7 +893,8 @@
       "imagination"
     ],
     "ukGuidanceNote": "11-minute episodes leave room in the daily allowance. One of the stronger Disney Junior offerings — the medical vocabulary and problem-solving format give screen time genuine educational value.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "animated"
   },
   {
     "id": "rugrats",
@@ -922,7 +941,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "Better suited to the older end of the under-5 range. The sophisticated adult humour makes it a strong co-viewing choice if your child can handle the occasionally intense imaginative sequences.",
-    "trailerUrl": "https://www.youtube.com/watch?v=ssCdYVhD-qg"
+    "trailerUrl": "https://www.youtube.com/watch?v=ssCdYVhD-qg",
+    "format": "animated"
   },
   {
     "id": "mickey-mouse-clubhouse",
@@ -968,7 +988,8 @@
       "popular"
     ],
     "ukGuidanceNote": "22-minute episodes fill most of the daily allowance. The interactive format encourages participation but the educational depth is limited compared to CBeebies alternatives like Numberblocks.",
-    "trailerUrl": "https://www.youtube.com/watch?v=FNV_evY3yGI"
+    "trailerUrl": "https://www.youtube.com/watch?v=FNV_evY3yGI",
+    "format": "animated"
   },
   {
     "id": "dora-the-explorer",
@@ -1015,7 +1036,8 @@
       "adventure"
     ],
     "ukGuidanceNote": "The bilingual format is a genuine educational strength rare in children's TV. However, 22-minute episodes and heavy commercial pressure are drawbacks. The interactive pauses are an opportunity for co-viewing engagement.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "animated"
   },
   {
     "id": "shaun-the-sheep",
@@ -1062,7 +1084,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "7-minute episodes fit perfectly within daily limits. The dialogue-free format develops inference and visual storytelling skills — ask your child to narrate what's happening for an extra language boost.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "animated"
   },
   {
     "id": "peter-rabbit",
@@ -1109,7 +1132,8 @@
       "teamwork"
     ],
     "ukGuidanceNote": "A good bridge between gentle preschool content and slightly more adventurous fare. 11-minute episodes leave room in the daily limit, and the nature themes translate naturally into outdoor activities.",
-    "trailerUrl": ""
+    "trailerUrl": "",
+    "format": "animated"
   },
   {
     "id": "the-gruffalo",
@@ -1156,7 +1180,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "At 27 minutes, fits within the daily limit with room to spare. The rhyming text and prediction elements make it ideal for interactive co-viewing — pause and ask 'what happens next?' Read the book together before or after.",
-    "trailerUrl": "https://www.youtube.com/watch?v=cVkj4McR1Fo"
+    "trailerUrl": "https://www.youtube.com/watch?v=cVkj4McR1Fo",
+    "format": "animated"
   },
   {
     "id": "the-gruffalos-child",
@@ -1203,7 +1228,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "A lovely companion to the original. The winter setting makes it a perfect seasonal watch. Same co-viewing benefits — ask your child to compare the two stories.",
-    "trailerUrl": "https://www.youtube.com/watch?v=vlCpF2A-_MA"
+    "trailerUrl": "https://www.youtube.com/watch?v=vlCpF2A-_MA",
+    "format": "animated"
   },
   {
     "id": "room-on-the-broom",
@@ -1250,7 +1276,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "One of the best uses of 25 minutes of screen time available. The themes of kindness and inclusion align perfectly with early years development goals. Read the book together first.",
-    "trailerUrl": "https://www.youtube.com/watch?v=jwZavzhym2A"
+    "trailerUrl": "https://www.youtube.com/watch?v=jwZavzhym2A",
+    "format": "animated"
   },
   {
     "id": "stick-man",
@@ -1297,7 +1324,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "The seasonal journey and themes of home and family create rich conversation opportunities. Be aware that the separation narrative may resonate with children starting nursery or experiencing changes at home.",
-    "trailerUrl": "https://www.youtube.com/watch?v=K7SLexWe6ko"
+    "trailerUrl": "https://www.youtube.com/watch?v=K7SLexWe6ko",
+    "format": "animated"
   },
   {
     "id": "the-highway-rat",
@@ -1342,7 +1370,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "A good conversation starter about sharing and fairness. The slightly pacier format makes it engaging for children who find the gentler adaptations too slow.",
-    "trailerUrl": "https://www.youtube.com/watch?v=M58eRpW-Y4o"
+    "trailerUrl": "https://www.youtube.com/watch?v=M58eRpW-Y4o",
+    "format": "animated"
   },
   {
     "id": "zog",
@@ -1388,7 +1417,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "Excellent growth mindset content — Zog's repeated failures and persistence model exactly the resilience the early years framework encourages. One of the gentlest Donaldson adaptations.",
-    "trailerUrl": "https://www.youtube.com/watch?v=qKYdLQgQB5Y"
+    "trailerUrl": "https://www.youtube.com/watch?v=qKYdLQgQB5Y",
+    "format": "animated"
   },
   {
     "id": "the-snail-and-the-whale",
@@ -1434,7 +1464,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "The whale beaching scene may need parental support for sensitive children, but the themes of bravery, friendship and environmental care are outstanding. A natural springboard into conversations about ocean life.",
-    "trailerUrl": "https://www.youtube.com/watch?v=dmLnraxsKpM"
+    "trailerUrl": "https://www.youtube.com/watch?v=dmLnraxsKpM",
+    "format": "animated"
   },
   {
     "id": "tabby-mctat",
@@ -1480,7 +1511,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "The bittersweet ending is more emotionally complex than most Donaldson adaptations — be prepared for questions about why Tabby doesn't go back to his original owner. Good for discussing how families can change and grow.",
-    "trailerUrl": "https://www.youtube.com/watch?v=77-G2wXK1Fg"
+    "trailerUrl": "https://www.youtube.com/watch?v=77-G2wXK1Fg",
+    "format": "animated"
   },
   {
     "id": "toy-story",
@@ -1526,7 +1558,8 @@
       "co-viewing"
     ],
     "ukGuidanceNote": "At 81 minutes, this far exceeds the daily screen time recommendation for under-5s. Best reserved for older children in the range and split across two sittings. The emotional complexity rewards co-viewing — be ready to discuss feelings of jealousy and fear of change.",
-    "trailerUrl": "https://www.youtube.com/watch?v=CxwTLktovTU"
+    "trailerUrl": "https://www.youtube.com/watch?v=CxwTLktovTU",
+    "format": "animated"
   },
   {
     "id": "frozen",
@@ -1572,6 +1605,7 @@
       "popular"
     ],
     "ukGuidanceNote": "At 102 minutes, this exceeds the entire daily screen time recommendation. The emotional intensity — parental loss, isolation, betrayal — is significant for under-5s. If watched, split across sessions and be prepared to support the heavier themes.",
-    "trailerUrl": "https://www.youtube.com/watch?v=TbQm5doF_Uc"
+    "trailerUrl": "https://www.youtube.com/watch?v=TbQm5doF_Uc",
+    "format": "animated"
   }
 ]
