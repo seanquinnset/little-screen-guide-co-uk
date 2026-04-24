@@ -1,6 +1,7 @@
 let allShows = [];
 let currentView = 'grid'; // 'grid' or 'list'
 let lastFiltered = [];     // keep reference for view re-render
+let panelOpen = false;
 
 // ── Advanced filter state ────────────────────────────────────────────────────
 
@@ -62,6 +63,7 @@ function setupListeners() {
       else closePanel();
     }
   });
+  window.addEventListener('popstate', () => { if (panelOpen) closePanel(true); });
 
   document.getElementById('video-close').addEventListener('click', closeVideo);
   document.getElementById('video-modal').addEventListener('click', e => {
@@ -476,10 +478,16 @@ function openPanel(id) {
     overlay.style.opacity   = '1';
   }));
 
+  history.pushState({ panel: id }, '');
+  panelOpen = true;
+
   document.getElementById('panel-close').focus();
 }
 
-function closePanel() {
+function closePanel(fromPopState = false) {
+  if (!panelOpen) return;
+  panelOpen = false;
+
   const overlay = document.getElementById('panel-overlay');
   const panel   = document.getElementById('show-panel');
 
@@ -491,6 +499,8 @@ function closePanel() {
     overlay.style.display = 'none';
     document.body.style.overflow = '';
   }, { once: true });
+
+  if (!fromPopState) history.back();
 }
 
 function dimensionRow(label, value, ragType) {
