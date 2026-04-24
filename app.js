@@ -14,10 +14,10 @@ const advancedFilters = {
 };
 
 const BROADCASTER_GROUPS = {
-  cbeebies:    ['cbeebies', 'abc kids', 'bbc', 'cbbc', 'pbs'],
+  cbeebies:    ['cbeebies', 'abc kids', 'bbc', 'cbbc'],
   nickelodeon: ['nickelodeon', 'channel 5', 'ch5', 'nick jr'],
   disney:      ['disney', 'disney junior', 'pixar'],
-  youtube:     ['youtube', 'peacock'],
+  youtube:     ['youtube'],
   netflix:     ['netflix'],
 };
 
