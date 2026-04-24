@@ -607,19 +607,7 @@ function buildPanelContent(show) {
       <p class="uk-note-text">${show.ukGuidanceNote}</p>
     </div>
 
-    <details class="how-we-rate">
-      <summary class="how-we-rate-toggle">How we rate</summary>
-      <div class="how-we-rate-body">
-        <p>Ratings are based on <a href="https://www.gov.uk/government/news/new-screen-time-guidance-for-parents-of-under-5s" target="_blank" rel="noopener">UK government screen time guidance</a> for under-5s, applied across six factors.</p>
-        <ul>
-          <li><strong>Pace is the primary factor.</strong> The guidance explicitly recommends slow-paced content for young children. Red pace caps a show at 2 stars.</li>
-          <li><strong>Amber fear factor caps a show at 4 stars</strong> — even if everything else is green.</li>
-          <li><strong>5 stars</strong> is reserved for shows that score well across all six factors with no significant concerns.</li>
-          <li><strong>Episode length is weighted less heavily</strong> — parents control the remote, and many shows can be watched in segments.</li>
-        </ul>
-        <p>These ratings are editorial, not official. Disagree with something? <a href="mailto:hello@littlescreenguide.co.uk">Email us</a> — we'd love to hear from you.</p>
-      </div>
-    </details>`;
+  `;
 }
 
 // ── Video modal ─────────────────────────────────────────────────────────────
