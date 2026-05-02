@@ -116,6 +116,10 @@ The site is vanilla HTML, CSS and JS with no framework. The main files:
 | `shows.json` | All show data |
 | `fetch-posters.js` | Helper script to fetch TMDB poster URLs |
 
+## Data attribution
+
+This product uses the [TMDB API](https://www.themoviedb.org/) for poster images and show descriptions but is not endorsed or certified by TMDB.
+
 ## Licence
 
 [MIT](LICENSE)
