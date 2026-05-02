@@ -1,0 +1,33 @@
+name: Suggest an update to a show
+description: Let us know if a show's rating, description or details need updating
+title: "Update: "
+labels: ["show-update"]
+body:
+  - type: input
+    id: show-name
+    attributes:
+      label: Show name
+      placeholder: e.g. Bluey
+    validations:
+      required: true
+
+  - type: dropdown
+    id: update-type
+    attributes:
+      label: What needs updating?
+      options:
+        - Rating
+        - Description
+        - Broadcaster
+        - Age range
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      placeholder: Tell us what you think should change and why.
+    validations:
+      required: true

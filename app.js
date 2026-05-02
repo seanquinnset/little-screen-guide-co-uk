@@ -607,6 +607,15 @@ function buildPanelContent(show) {
       <p class="uk-note-text">${show.ukGuidanceNote}</p>
     </div>
 
+    <p style="margin-top:0.75rem;font-size:0.75rem;color:#b0a898;">
+      Something wrong?
+      <a href="https://github.com/seanquinnset/little-screen-guide-co-uk/issues/new?template=suggest-update.yml&title=Update:+${encodeURIComponent(show.name)}"
+         target="_blank" rel="noopener"
+         style="color:#2f5e28;text-decoration:underline;text-underline-offset:2px;font-weight:600;">
+        Suggest an update
+      </a>
+    </p>
+
   `;
 }
 

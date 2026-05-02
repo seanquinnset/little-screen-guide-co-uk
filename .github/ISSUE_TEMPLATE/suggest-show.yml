@@ -1,0 +1,46 @@
+name: Suggest a new show
+description: Suggest a children's TV show or movie for us to review
+title: "New show: "
+labels: ["new-show"]
+body:
+  - type: input
+    id: show-name
+    attributes:
+      label: Show name
+      placeholder: e.g. Bluey
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - TV show
+        - Movie
+    validations:
+      required: true
+
+  - type: input
+    id: broadcaster
+    attributes:
+      label: Broadcaster / streaming service
+      placeholder: e.g. CBeebies, Netflix, Disney+
+
+  - type: dropdown
+    id: age-range
+    attributes:
+      label: Age range
+      options:
+        - 0-2
+        - 2-3
+        - 2-5
+        - 3-5
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why should we add it?
+      placeholder: Tell us a bit about why this show would be a good addition — is it popular, educational, calming, etc.?

@@ -1,0 +1,157 @@
+name: New show suggestion → PR
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create-pr:
+    if: contains(github.event.issue.labels.*.name, 'new-show')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse issue and create PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body || '';
+
+            // Parse form fields from the issue body
+            function parseField(label) {
+              const regex = new RegExp(`### ${label}\\s*\\n\\s*([\\s\\S]*?)(?=\\n###|$)`);
+              const match = body.match(regex);
+              return match ? match[1].trim() : '';
+            }
+
+            const showName = parseField('Show name');
+            const type = parseField('Type');
+            const broadcaster = parseField('Broadcaster / streaming service');
+            const ageRange = parseField('Age range');
+            const reason = parseField('Why should we add it\\?');
+
+            if (!showName) {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: issue.number,
+                body: '⚠️ Could not parse a show name from this issue. Please make sure the "Show name" field is filled in.',
+              });
+              return;
+            }
+
+            // Build the ID from the show name
+            const id = showName
+              .toLowerCase()
+              .replace(/[^a-z0-9\s-]/g, '')
+              .replace(/\s+/g, '-')
+              .replace(/-+/g, '-')
+              .replace(/^-|-$/g, '');
+
+            // Parse age range
+            const ageParts = ageRange.split('-').map(Number);
+            const ageMin = ageParts[0] || 2;
+            const ageMax = ageParts[1] || 5;
+
+            const isMovie = type.toLowerCase() === 'movie';
+
+            // Build the new show entry
+            const newShow = {
+              id,
+              name: showName,
+              ...(isMovie ? { type: 'movie' } : {}),
+              broadcaster: broadcaster || 'TODO',
+              description: 'TODO — add description (or run fetch-posters.js to pull from TMDB)',
+              thumbnailUrl: '',
+              ageMinYears: ageMin,
+              ageMaxYears: ageMax,
+              episodeLengthMinutes: 0,
+              episodeLengthRag: 'green',
+              overallStars: 0,
+              dimensions: {
+                pace:               { rag: 'green', note: 'TODO' },
+                cognitive:          { stars: 0, note: 'TODO' },
+                coViewing:          { stars: 0, note: 'TODO' },
+                emotionalContent:   { rag: 'green', note: 'TODO' },
+                commercialPressure: { rag: 'green', note: 'TODO' },
+                fearFactor:         { rag: 'green', note: 'TODO' },
+              },
+              tags: [],
+              ukGuidanceNote: 'TODO',
+              trailerUrl: '',
+              format: 'animated',
+            };
+
+            // Read the current shows.json
+            const { data: file } = await github.rest.repos.getContent({
+              ...context.repo,
+              path: 'shows.json',
+              ref: 'main',
+            });
+
+            const shows = JSON.parse(Buffer.from(file.content, 'base64').toString('utf8'));
+            shows.push(newShow);
+
+            const updatedContent = JSON.stringify(shows, null, 2) + '\n';
+
+            // Create a new branch
+            const branch = `add-show/${id}`;
+
+            const { data: ref } = await github.rest.git.getRef({
+              ...context.repo,
+              ref: 'heads/main',
+            });
+
+            await github.rest.git.createRef({
+              ...context.repo,
+              ref: `refs/heads/${branch}`,
+              sha: ref.object.sha,
+            });
+
+            // Update shows.json on the new branch
+            await github.rest.repos.createOrUpdateFileContents({
+              ...context.repo,
+              path: 'shows.json',
+              message: `Add ${showName} to shows.json (closes #${issue.number})`,
+              content: Buffer.from(updatedContent).toString('base64'),
+              sha: file.sha,
+              branch,
+            });
+
+            // Create the PR
+            const prBody = [
+              `## New show suggestion`,
+              ``,
+              `**Show:** ${showName}`,
+              `**Type:** ${type}`,
+              `**Broadcaster:** ${broadcaster || '_not provided_'}`,
+              `**Age range:** ${ageRange}`,
+              reason ? `**Reason:** ${reason}` : '',
+              ``,
+              `Closes #${issue.number}`,
+              ``,
+              `### Before merging`,
+              `- [ ] Fill in all \`TODO\` fields in \`shows.json\` (ratings, dimensions, notes)`,
+              `- [ ] Add show to \`ENTRIES\` in \`fetch-posters.js\` and run it to pull TMDB poster/description/trailer`,
+              `- [ ] Set \`overallStars\` and review all dimension ratings`,
+              `- [ ] Add appropriate tags`,
+            ].filter(Boolean).join('\n');
+
+            await github.rest.pulls.create({
+              ...context.repo,
+              title: `Add show: ${showName}`,
+              body: prBody,
+              head: branch,
+              base: 'main',
+            });
+
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: issue.number,
+              body: `Thanks for the suggestion! A draft PR has been created to add **${showName}** to the guide. We'll review it and fill in the ratings.`,
+            });
