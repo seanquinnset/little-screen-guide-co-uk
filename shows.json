@@ -374,7 +374,8 @@
     ],
     "ukGuidanceNote": "11-minute episodes leave ample room in the daily limit. High co-viewing value — the creature facts prompt real conversation and curiosity that extend well beyond the screen.",
     "trailerUrl": "https://www.youtube.com/watch?v=dnyLnL-0CuQ",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 4
   },
   {
     "id": "peppa-pig",
@@ -1134,7 +1135,8 @@
     ],
     "ukGuidanceNote": "A good bridge between gentle preschool content and slightly more adventurous fare. 11-minute episodes leave room in the daily limit, and the nature themes translate naturally into outdoor activities.",
     "trailerUrl": "",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 4
   },
   {
     "id": "the-gruffalo",
@@ -1280,7 +1282,8 @@
     ],
     "ukGuidanceNote": "One of the best uses of 25 minutes of screen time available. The themes of kindness and inclusion align perfectly with early years development goals. Read the book together first.",
     "trailerUrl": "https://www.youtube.com/watch?v=jwZavzhym2A",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 4
   },
   {
     "id": "stick-man",
@@ -1468,7 +1471,8 @@
     ],
     "ukGuidanceNote": "The whale beaching scene may need parental support for sensitive children, but the themes of bravery, friendship and environmental care are outstanding. A natural springboard into conversations about ocean life.",
     "trailerUrl": "https://www.youtube.com/watch?v=dmLnraxsKpM",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 5
   },
   {
     "id": "tabby-mctat",
