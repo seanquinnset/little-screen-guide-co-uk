@@ -151,7 +151,7 @@
     "ageMaxYears": 4,
     "episodeLengthMinutes": 7,
     "episodeLengthRag": "green",
-    "overallStars": 3,
+    "overallStars": 4,
     "dimensions": {
       "pace": {
         "rag": "green",
@@ -765,7 +765,7 @@
     "ageMaxYears": 3,
     "episodeLengthMinutes": 25,
     "episodeLengthRag": "red",
-    "overallStars": 2,
+    "overallStars": 3,
     "dimensions": {
       "pace": {
         "rag": "green",
@@ -1242,7 +1242,7 @@
     "ageMaxYears": 6,
     "episodeLengthMinutes": 25,
     "episodeLengthRag": "green",
-    "overallStars": 4,
+    "overallStars": 3,
     "dimensions": {
       "pace": {
         "rag": "green",
