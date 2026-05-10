@@ -374,7 +374,8 @@
     ],
     "ukGuidanceNote": "11-minute episodes leave ample room in the daily limit. High co-viewing value — the creature facts prompt real conversation and curiosity that extend well beyond the screen.",
     "trailerUrl": "https://www.youtube.com/watch?v=dnyLnL-0CuQ",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 4
   },
   {
     "id": "peppa-pig",
@@ -942,7 +943,8 @@
     ],
     "ukGuidanceNote": "Better suited to the older end of the under-5 range. The sophisticated adult humour makes it a strong co-viewing choice if your child can handle the occasionally intense imaginative sequences.",
     "trailerUrl": "https://www.youtube.com/watch?v=ssCdYVhD-qg",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 3
   },
   {
     "id": "mickey-mouse-clubhouse",
@@ -1133,7 +1135,8 @@
     ],
     "ukGuidanceNote": "A good bridge between gentle preschool content and slightly more adventurous fare. 11-minute episodes leave room in the daily limit, and the nature themes translate naturally into outdoor activities.",
     "trailerUrl": "",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 4
   },
   {
     "id": "the-gruffalo",
@@ -1181,7 +1184,8 @@
     ],
     "ukGuidanceNote": "At 27 minutes, fits within the daily limit with room to spare. The rhyming text and prediction elements make it ideal for interactive co-viewing — pause and ask 'what happens next?' Read the book together before or after.",
     "trailerUrl": "https://www.youtube.com/watch?v=cVkj4McR1Fo",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 5
   },
   {
     "id": "the-gruffalos-child",
@@ -1229,7 +1233,8 @@
     ],
     "ukGuidanceNote": "A lovely companion to the original. The winter setting makes it a perfect seasonal watch. Same co-viewing benefits — ask your child to compare the two stories.",
     "trailerUrl": "https://www.youtube.com/watch?v=vlCpF2A-_MA",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 5
   },
   {
     "id": "room-on-the-broom",
@@ -1277,7 +1282,8 @@
     ],
     "ukGuidanceNote": "One of the best uses of 25 minutes of screen time available. The themes of kindness and inclusion align perfectly with early years development goals. Read the book together first.",
     "trailerUrl": "https://www.youtube.com/watch?v=jwZavzhym2A",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 4
   },
   {
     "id": "stick-man",
@@ -1465,7 +1471,8 @@
     ],
     "ukGuidanceNote": "The whale beaching scene may need parental support for sensitive children, but the themes of bravery, friendship and environmental care are outstanding. A natural springboard into conversations about ocean life.",
     "trailerUrl": "https://www.youtube.com/watch?v=dmLnraxsKpM",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 5
   },
   {
     "id": "tabby-mctat",
@@ -1559,7 +1566,8 @@
     ],
     "ukGuidanceNote": "At 81 minutes, this far exceeds the daily screen time recommendation for under-5s. Best reserved for older children in the range and split across two sittings. The emotional complexity rewards co-viewing — be ready to discuss feelings of jealousy and fear of change.",
     "trailerUrl": "https://www.youtube.com/watch?v=CxwTLktovTU",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 3
   },
   {
     "id": "frozen",
@@ -1606,6 +1614,7 @@
     ],
     "ukGuidanceNote": "At 102 minutes, this exceeds the entire daily screen time recommendation. The emotional intensity — parental loss, isolation, betrayal — is significant for under-5s. If watched, split across sessions and be prepared to support the heavier themes.",
     "trailerUrl": "https://www.youtube.com/watch?v=TbQm5doF_Uc",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 3
   }
 ]

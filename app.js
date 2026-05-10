@@ -2,6 +2,7 @@ let allShows = [];
 let currentView = 'grid'; // 'grid' or 'list'
 let lastFiltered = [];     // keep reference for view re-render
 let panelOpen = false;
+let currentAgeFilter = 'all';
 
 const SI = {
   x:        `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.213 5.567zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
@@ -107,6 +108,7 @@ function setupListeners() {
 function applyFilters() {
   const search = document.getElementById('search').value.toLowerCase().trim();
   const age    = document.getElementById('age-filter').value;
+  currentAgeFilter = age;
   const sort   = document.getElementById('sort').value;
 
   const filtered = allShows
@@ -137,7 +139,7 @@ function matchesAge(show, filter) {
 function comparator(sort) {
   return (a, b) => {
     switch (sort) {
-      case 'overall':   return b.overallStars - a.overallStars;
+      case 'overall':   return effectiveOverallStars(b) - effectiveOverallStars(a);
       case 'cognitive': return b.dimensions.cognitive.stars - a.dimensions.cognitive.stars;
       case 'coviewing': return b.dimensions.coViewing.stars - a.dimensions.coViewing.stars;
       case 'pace':      return ragRank(a.dimensions.pace.rag) - ragRank(b.dimensions.pace.rag);
@@ -150,6 +152,11 @@ function comparator(sort) {
 
 function ragRank(rag) {
   return { green: 0, amber: 1, red: 2 }[rag] ?? 1;
+}
+
+function effectiveOverallStars(show) {
+  if (currentAgeFilter === '3-5' && show.overallStars3plus != null) return show.overallStars3plus;
+  return show.overallStars;
 }
 
 // ── Advanced filter functions ────────────────────────────────────────────────
@@ -290,7 +297,7 @@ function matchesFormat(show) {
 
 function matchesMinStars(show) {
   if (advancedFilters.minStars === 0) return true;
-  return show.overallStars >= advancedFilters.minStars;
+  return effectiveOverallStars(show) >= advancedFilters.minStars;
 }
 
 // ── Rendering helpers ───────────────────────────────────────────────────────
@@ -357,7 +364,7 @@ function showCard(show, index) {
         <p class="text-xs text-[#a09888]">${show.broadcaster}</p>
         <p class="text-xs text-[#7a7060]">Ages ${show.ageMinYears}–${show.ageMaxYears}</p>
         <div class="flex items-center justify-between mt-auto pt-1">
-          <div class="stars text-lg">${stars(show.overallStars)}</div>
+          <div class="stars text-lg">${stars(effectiveOverallStars(show))}</div>
           <span class="rag-${show.dimensions.fearFactor.rag} text-xs font-semibold px-2 py-0.5 rounded-full">${fearLabel}</span>
         </div>
       </div>
@@ -388,7 +395,7 @@ function showListRow(show) {
         <span class="list-name">${show.name}</span>
         <span class="list-meta">${show.broadcaster}</span>
         <span class="list-meta">${show.episodeLengthMinutes} min</span>
-        <div class="stars text-sm">${stars(show.overallStars)}</div>
+        <div class="stars text-sm">${stars(effectiveOverallStars(show))}</div>
         <div class="list-badges">
           <span class="rag-${show.dimensions.pace.rag} text-xs font-semibold px-1.5 py-0.5 rounded-full">${paceLabel}</span>
           <span class="rag-${show.dimensions.fearFactor.rag} text-xs font-semibold px-1.5 py-0.5 rounded-full">${fearLabel}</span>
@@ -588,7 +595,7 @@ function buildPanelContent(show) {
       <span class="rag-${show.episodeLengthRag} text-xs font-semibold px-2 py-0.5 rounded-full">
         ${show.episodeLengthMinutes} min · ${{ green: 'Short', amber: 'Medium', red: 'Long' }[show.episodeLengthRag]}
       </span>
-      <div class="stars text-lg">${stars(show.overallStars)}</div>
+      <div class="stars text-lg">${stars(effectiveOverallStars(show))}</div>
     </div>
 
     <div style="border-radius:0.75rem;background:#f7f4ef;border:1px solid #ece8e0;padding:0 0.75rem;margin-bottom:1rem;">
