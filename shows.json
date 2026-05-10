@@ -931,8 +931,7 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "Imaginative sequences can be genuinely frightening for under-3s; Angelica is intentionally intimidating",
-        "rag3plus": "green"
+        "note": "Imaginative sequences can be genuinely frightening for under-3s; Angelica is intentionally intimidating"
       }
     },
     "tags": [
@@ -943,7 +942,8 @@
     ],
     "ukGuidanceNote": "Better suited to the older end of the under-5 range. The sophisticated adult humour makes it a strong co-viewing choice if your child can handle the occasionally intense imaginative sequences.",
     "trailerUrl": "https://www.youtube.com/watch?v=ssCdYVhD-qg",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 3
   },
   {
     "id": "mickey-mouse-clubhouse",
@@ -1171,8 +1171,7 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "The Gruffalo's appearance and the dark forest setting can frighten sensitive under-3s; predators wanting to eat the mouse is played for humour but some children take it literally",
-        "rag3plus": "green"
+        "note": "The Gruffalo's appearance and the dark forest setting can frighten sensitive under-3s; predators wanting to eat the mouse is played for humour but some children take it literally"
       }
     },
     "tags": [
@@ -1183,7 +1182,8 @@
     ],
     "ukGuidanceNote": "At 27 minutes, fits within the daily limit with room to spare. The rhyming text and prediction elements make it ideal for interactive co-viewing — pause and ask 'what happens next?' Read the book together before or after.",
     "trailerUrl": "https://www.youtube.com/watch?v=cVkj4McR1Fo",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 5
   },
   {
     "id": "the-gruffalos-child",
@@ -1220,8 +1220,7 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "The dark, snowy forest and search for the Big Bad Mouse may unsettle very young viewers; slightly more atmospheric tension than the original",
-        "rag3plus": "green"
+        "note": "The dark, snowy forest and search for the Big Bad Mouse may unsettle very young viewers; slightly more atmospheric tension than the original"
       }
     },
     "tags": [
@@ -1232,7 +1231,8 @@
     ],
     "ukGuidanceNote": "A lovely companion to the original. The winter setting makes it a perfect seasonal watch. Same co-viewing benefits — ask your child to compare the two stories.",
     "trailerUrl": "https://www.youtube.com/watch?v=vlCpF2A-_MA",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 5
   },
   {
     "id": "room-on-the-broom",
@@ -1552,8 +1552,7 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "Sid's mutant toys, the moving-van chase and Buzz's identity crisis can genuinely frighten under-4s; typically fine for children aged 4 and above",
-        "rag3plus": "green"
+        "note": "Sid's mutant toys, the moving-van chase and Buzz's identity crisis can genuinely frighten under-4s"
       }
     },
     "tags": [
@@ -1563,7 +1562,8 @@
     ],
     "ukGuidanceNote": "At 81 minutes, this far exceeds the daily screen time recommendation for under-5s. Best reserved for older children in the range and split across two sittings. The emotional complexity rewards co-viewing — be ready to discuss feelings of jealousy and fear of change.",
     "trailerUrl": "https://www.youtube.com/watch?v=CxwTLktovTU",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 3
   },
   {
     "id": "frozen",
@@ -1600,8 +1600,7 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "Marshmallow the snow monster, wolves, Hans' betrayal and Elsa's ice-palace rampage are genuinely scary for under-4s; typically fine for children aged 4 and above",
-        "rag3plus": "green"
+        "note": "Marshmallow the snow monster, wolves, Hans' betrayal and Elsa's ice-palace rampage are genuinely scary for under-4s"
       }
     },
     "tags": [
@@ -1611,6 +1610,7 @@
     ],
     "ukGuidanceNote": "At 102 minutes, this exceeds the entire daily screen time recommendation. The emotional intensity — parental loss, isolation, betrayal — is significant for under-5s. If watched, split across sessions and be prepared to support the heavier themes.",
     "trailerUrl": "https://www.youtube.com/watch?v=TbQm5doF_Uc",
-    "format": "animated"
+    "format": "animated",
+    "overallStars3plus": 3
   }
 ]

@@ -139,11 +139,11 @@ function matchesAge(show, filter) {
 function comparator(sort) {
   return (a, b) => {
     switch (sort) {
-      case 'overall':   return b.overallStars - a.overallStars;
+      case 'overall':   return effectiveOverallStars(b) - effectiveOverallStars(a);
       case 'cognitive': return b.dimensions.cognitive.stars - a.dimensions.cognitive.stars;
       case 'coviewing': return b.dimensions.coViewing.stars - a.dimensions.coViewing.stars;
       case 'pace':      return ragRank(a.dimensions.pace.rag) - ragRank(b.dimensions.pace.rag);
-      case 'fear':      return ragRank(effectiveFearRag(a)) - ragRank(effectiveFearRag(b));
+      case 'fear':      return ragRank(a.dimensions.fearFactor.rag) - ragRank(b.dimensions.fearFactor.rag);
       case 'shortest':  return a.episodeLengthMinutes - b.episodeLengthMinutes;
       default:          return 0;
     }
@@ -154,11 +154,9 @@ function ragRank(rag) {
   return { green: 0, amber: 1, red: 2 }[rag] ?? 1;
 }
 
-function effectiveFearRag(show) {
-  const f = show.dimensions.fearFactor;
-  if (currentAgeFilter === 'under2' || currentAgeFilter === '2-3') return f.ragUnder3 ?? f.rag;
-  if (currentAgeFilter === '3-5') return f.rag3plus ?? f.rag;
-  return f.rag;
+function effectiveOverallStars(show) {
+  if (currentAgeFilter === '3-5' && show.overallStars3plus != null) return show.overallStars3plus;
+  return show.overallStars;
 }
 
 // ── Advanced filter functions ────────────────────────────────────────────────
@@ -289,7 +287,7 @@ function matchesPace(show) {
 
 function matchesFear(show) {
   if (advancedFilters.fear.size === 0) return true;
-  return advancedFilters.fear.has(effectiveFearRag(show));
+  return advancedFilters.fear.has(show.dimensions.fearFactor.rag);
 }
 
 function matchesFormat(show) {
@@ -299,7 +297,7 @@ function matchesFormat(show) {
 
 function matchesMinStars(show) {
   if (advancedFilters.minStars === 0) return true;
-  return show.overallStars >= advancedFilters.minStars;
+  return effectiveOverallStars(show) >= advancedFilters.minStars;
 }
 
 // ── Rendering helpers ───────────────────────────────────────────────────────
@@ -347,8 +345,7 @@ function showCard(show, index) {
     : `<div class="thumb-fallback" style="position:absolute;inset:0;background:${bg}">${initials(show.name)}</div>`;
 
   const paceLabel = ragBadgeText(show.dimensions.pace.rag, 'pace');
-  const fearRag   = effectiveFearRag(show);
-  const fearLabel = ragBadgeText(fearRag, 'fear');
+  const fearLabel = ragBadgeText(show.dimensions.fearFactor.rag, 'fear');
 
   return `
     <article class="show-card bg-white rounded-2xl shadow-sm flex flex-col overflow-hidden"
@@ -367,8 +364,8 @@ function showCard(show, index) {
         <p class="text-xs text-[#a09888]">${show.broadcaster}</p>
         <p class="text-xs text-[#7a7060]">Ages ${show.ageMinYears}–${show.ageMaxYears}</p>
         <div class="flex items-center justify-between mt-auto pt-1">
-          <div class="stars text-lg">${stars(show.overallStars)}</div>
-          <span class="rag-${fearRag} text-xs font-semibold px-2 py-0.5 rounded-full">${fearLabel}</span>
+          <div class="stars text-lg">${stars(effectiveOverallStars(show))}</div>
+          <span class="rag-${show.dimensions.fearFactor.rag} text-xs font-semibold px-2 py-0.5 rounded-full">${fearLabel}</span>
         </div>
       </div>
     </article>`;
@@ -386,8 +383,7 @@ function showListRow(show) {
     : `<div class="thumb-fallback" style="position:absolute;inset:0;background:${bg};font-size:0.8rem;">${initials(show.name)}</div>`;
 
   const paceLabel = ragBadgeText(show.dimensions.pace.rag, 'pace');
-  const fearRag   = effectiveFearRag(show);
-  const fearLabel = ragBadgeText(fearRag, 'fear');
+  const fearLabel = ragBadgeText(show.dimensions.fearFactor.rag, 'fear');
 
   return `
     <article class="show-card bg-white flex overflow-hidden"
@@ -399,10 +395,10 @@ function showListRow(show) {
         <span class="list-name">${show.name}</span>
         <span class="list-meta">${show.broadcaster}</span>
         <span class="list-meta">${show.episodeLengthMinutes} min</span>
-        <div class="stars text-sm">${stars(show.overallStars)}</div>
+        <div class="stars text-sm">${stars(effectiveOverallStars(show))}</div>
         <div class="list-badges">
           <span class="rag-${show.dimensions.pace.rag} text-xs font-semibold px-1.5 py-0.5 rounded-full">${paceLabel}</span>
-          <span class="rag-${fearRag} text-xs font-semibold px-1.5 py-0.5 rounded-full">${fearLabel}</span>
+          <span class="rag-${show.dimensions.fearFactor.rag} text-xs font-semibold px-1.5 py-0.5 rounded-full">${fearLabel}</span>
         </div>
       </div>
     </article>`;
@@ -599,7 +595,7 @@ function buildPanelContent(show) {
       <span class="rag-${show.episodeLengthRag} text-xs font-semibold px-2 py-0.5 rounded-full">
         ${show.episodeLengthMinutes} min · ${{ green: 'Short', amber: 'Medium', red: 'Long' }[show.episodeLengthRag]}
       </span>
-      <div class="stars text-lg">${stars(show.overallStars)}</div>
+      <div class="stars text-lg">${stars(effectiveOverallStars(show))}</div>
     </div>
 
     <div style="border-radius:0.75rem;background:#f7f4ef;border:1px solid #ece8e0;padding:0 0.75rem;margin-bottom:1rem;">
@@ -607,7 +603,7 @@ function buildPanelContent(show) {
       ${dimensionRow('Cognitive development', show.dimensions.cognitive, 'stars')}
       ${dimensionRow('Co-viewing value', show.dimensions.coViewing, 'stars')}
       ${dimensionRow('Emotional content', show.dimensions.emotionalContent, 'emotion')}
-      ${dimensionRow('Fear factor', {...show.dimensions.fearFactor, rag: effectiveFearRag(show)}, 'fear')}
+      ${dimensionRow('Fear factor', show.dimensions.fearFactor, 'fear')}
       ${dimensionRow('Commercial pressure', show.dimensions.commercialPressure, 'commerce')}
     </div>
 
