@@ -931,7 +931,8 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "Imaginative sequences can be genuinely frightening for under-3s; Angelica is intentionally intimidating"
+        "note": "Imaginative sequences can be genuinely frightening for under-3s; Angelica is intentionally intimidating",
+        "rag3plus": "green"
       }
     },
     "tags": [
@@ -1170,7 +1171,8 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "The Gruffalo's appearance and the dark forest setting can frighten sensitive under-3s; predators wanting to eat the mouse is played for humour but some children take it literally"
+        "note": "The Gruffalo's appearance and the dark forest setting can frighten sensitive under-3s; predators wanting to eat the mouse is played for humour but some children take it literally",
+        "rag3plus": "green"
       }
     },
     "tags": [
@@ -1218,7 +1220,8 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "The dark, snowy forest and search for the Big Bad Mouse may unsettle very young viewers; slightly more atmospheric tension than the original"
+        "note": "The dark, snowy forest and search for the Big Bad Mouse may unsettle very young viewers; slightly more atmospheric tension than the original",
+        "rag3plus": "green"
       }
     },
     "tags": [
@@ -1549,7 +1552,8 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "Sid's mutant toys, the moving-van chase and Buzz's identity crisis can genuinely frighten under-4s"
+        "note": "Sid's mutant toys, the moving-van chase and Buzz's identity crisis can genuinely frighten under-4s; typically fine for children aged 4 and above",
+        "rag3plus": "green"
       }
     },
     "tags": [
@@ -1596,7 +1600,8 @@
       },
       "fearFactor": {
         "rag": "amber",
-        "note": "Marshmallow the snow monster, wolves, Hans' betrayal and Elsa's ice-palace rampage are genuinely scary for under-4s"
+        "note": "Marshmallow the snow monster, wolves, Hans' betrayal and Elsa's ice-palace rampage are genuinely scary for under-4s; typically fine for children aged 4 and above",
+        "rag3plus": "green"
       }
     },
     "tags": [
